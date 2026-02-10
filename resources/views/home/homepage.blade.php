@@ -52,62 +52,6 @@
             </div>
         </div>
     </section>
-    <!-- Copy Trading Notifications -->
-    <div class="inv-box-a" id="inv-box-a">
-        <div class="inv-block">
-            <i class="fa fa-users" style="font-size:32px;color:#04d189;"></i>
-            <div>
-                <div class="inv-title">Copy Trading Update</div>
-                <div class="inv-text"></div>
-            </div>
-        </div>
-    </div>
-    <div class="inv-box-b" id="inv-box-b">
-        <div class="inv-block">
-            <i class="fa fa-chart-line" style="font-size:32px;color:#1991ff;"></i>
-            <div>
-                <div class="inv-title">Affordableinvprogram Alert</div>
-                <div class="inv-text"></div>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
-    <script>
-    // Affordableinvprogram copy trading notifications
-    const invNames = ["Michael","Jessica","Daniel","Samantha","Ethan","Sophia","James","Olivia","Liam","Emily","Ryan","Charlotte","William","Isabella","Benjamin","Mia","Alexander","Harper","Lucas","Grace","Nathan","Abigail","Connor","Victoria","Logan","Madison","Owen","Scarlett","Henry","Eleanor","Patrick","Claire","Sebastian","Zoe","Thomas","Avery","Jack","Ella","Matthew","Lauren","Andrew","Hannah","Brandon","Rachel","Tyler","Megan","Cameron","Natalie","Hunter","Addison"];
-    const invCountries = ["USA","UK","Canada","Australia","Germany","France","Netherlands","Switzerland","Sweden","Norway","Denmark","New Zealand","Austria","Belgium","Ireland","Japan","Singapore","Finland","Luxembourg","Italy","Spain","Portugal","Iceland","South Korea","Israel","Czech Republic","Poland","Estonia","Scotland","Monaco"];
-    function pick(list){ return list[Math.floor(Math.random()*list.length)]; }
-    function money(min,max){ return (Math.random()*(max-min)+min).toFixed(2); }
-    let toggleA = true;
-    let toggleB = false;
-    function showA(){
-        let name = pick(invNames);
-        let country = pick(invCountries);
-        let amount = toggleA ? money(200,8000) : money(500,20000);
-        let msg = toggleA
-            ? `${name} from ${country} just copied a trade and earned <b>$${amount}</b>!`
-            : `${name} from ${country} withdrew <b>$${amount}</b> profit from copy trading.`;
-        toggleA = !toggleA;
-        $("#inv-box-a .inv-text").html(msg);
-        $("#inv-box-a").fadeIn(500);
-        setTimeout(()=>$("#inv-box-a").fadeOut(500), 4200);
-    }
-    function showB(){
-        let name = pick(invNames);
-        let amount = toggleB ? money(50,700) : money(200,3500);
-        let msg = toggleB
-            ? `${name} just started following a new expert trader!`
-            : `${name} received a copy trading signal: <b>+$${amount}</b> potential profit!`;
-        toggleB = !toggleB;
-        $("#inv-box-b .inv-text").html(msg);
-        $("#inv-box-b").fadeIn(500);
-        setTimeout(()=>$("#inv-box-b").fadeOut(500), 4200);
-    }
-    setInterval(showA, 6500);
-    setInterval(showB, 9000);
-    </script>
-
     <!-- Live Market Ticker -->
     <div class="market-ticker">
         <div class="ticker-track">
