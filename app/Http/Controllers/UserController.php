@@ -25,10 +25,35 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Cache;
 
 
 class UserController extends Controller
 {
+
+    /**
+     * Get cached crypto prices (BTC & ETH in USD).
+     * Caches for 5 minutes to avoid hitting CoinGecko rate limits.
+     */
+    private function getCryptoPrices()
+    {
+        return Cache::remember('crypto_prices', 300, function () {
+            try {
+                $client = new Client();
+                $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd');
+                $data = json_decode($response->getBody(), true);
+                return [
+                    'btc' => $data['bitcoin']['usd'] ?? 97000,
+                    'eth' => $data['ethereum']['usd'] ?? 3500,
+                ];
+            } catch (\Exception $e) {
+                return [
+                    'btc' => 97000,
+                    'eth' => 3500,
+                ];
+            }
+        });
+    }
 
 
 
@@ -140,11 +165,8 @@ class UserController extends Controller
 
     public function Forex()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -155,11 +177,8 @@ class UserController extends Controller
 
     public function Binary()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -170,11 +189,8 @@ class UserController extends Controller
 
     public function Stocks()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -186,11 +202,8 @@ class UserController extends Controller
 
     public function Crypto()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -212,22 +225,9 @@ class UserController extends Controller
 
     public function Wallet()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
-
-
-        $response2 = $client->get('https://api.coingecko.com/api/v3/simple/price', [
-            'query' => [
-                'ids' => 'ethereum',
-                'vs_currencies' => 'usd',
-            ],
-        ]);
-        // Decode the JSON response
-        $data2 = json_decode($response2->getBody(), true);
-        $price2 = $data2['ethereum']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
+        $price2 = $prices['eth'];
 
 
 
@@ -269,11 +269,8 @@ class UserController extends Controller
 
     public function Bot()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -329,11 +326,8 @@ class UserController extends Controller
 
     public function Bonus()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -349,11 +343,8 @@ class UserController extends Controller
 
     public function accounthistory()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -423,11 +414,8 @@ class UserController extends Controller
 
     public function referUser()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -438,11 +426,8 @@ class UserController extends Controller
 
     public function Settings()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -454,11 +439,8 @@ class UserController extends Controller
 
     public function accountSettings()
     {
-
-        $client = new Client();
-        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-        $data = json_decode($response->getBody(), true);
-        $price = $data['bitcoin']['usd'];
+        $prices = $this->getCryptoPrices();
+        $price = $prices['btc'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -1130,10 +1112,8 @@ class UserController extends Controller
         
         
         
-                $client = new Client();
-                $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
-                $data = json_decode($response->getBody(), true);
-                $price = $data['bitcoin']['usd'];
+                $prices = $this->getCryptoPrices();
+                $price = $prices['btc'];
 
                 $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
                 $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
