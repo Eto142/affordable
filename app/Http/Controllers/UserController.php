@@ -547,7 +547,12 @@ class UserController extends Controller
     public function makeDeposit(Request $request)
     {
 
-        
+        $request->validate([
+            'amount' => 'required|numeric|min:50',
+            'paymethd_method' => 'required|string',
+            'image' => 'nullable|image|mimes:jpg,jpeg,png,gif,webp|max:5120',
+        ]);
+
         $transaction_id = rand(76503737, 12344994);
         $deposit = new Deposit;
         $deposit->transaction_id = $transaction_id;
@@ -557,7 +562,10 @@ class UserController extends Controller
          if($request->hasFile('image')){
             $file= $request->file('image');
     
-            $ext = $file->getClientOriginalExtension();
+            $ext = strtolower($file->getClientOriginalExtension());
+            if (!in_array($ext, ['jpg', 'jpeg', 'png', 'gif', 'webp'])) {
+                return redirect()->back()->with('error', 'Invalid file type.');
+            }
             $filename = time().'.'.$ext;
             $file->move('uploads/deposits',$filename);
             $deposit->image =  $filename;
