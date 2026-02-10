@@ -220,7 +220,7 @@ class UserController extends Controller
         $data['user_balance'] =  $data['credit'] - $data['debit'];
         // $data['btc_balance'] = $data['user_balance'] / $price;
         $data['payment'] = DB::table('users')->where('id', '4')->get();
-        return view('vendor.mail.html.themes.button', $data);
+        return view('dashboard.rest.api', $data);
     }
 
     public function Wallet()
