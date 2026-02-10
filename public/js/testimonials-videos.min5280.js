@@ -1,0 +1,1 @@
+new Splide(".js-testimonials-splide",{perPage:3,perMove:1,rewind:true,pagination:false,gap:52,drag:false,breakpoints:{1023:{perPage:2,perMove:1,gap:32},768:{perPage:1,perMove:1}}}).mount();const vimeoPlayers=document.querySelectorAll(".js-testimonial-video");if(vimeoPlayers){vimeoPlayers.forEach((e=>{e.addEventListener("click",vimeoPlaceholderClickHandler)}))}

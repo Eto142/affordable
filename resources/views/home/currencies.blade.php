@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.switchmarkets.com/markets/digital-currencies by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 16:25:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="dns-prefetch" href="https://d1egza9ueiv2hi.cloudfront.net/">
+        <link rel="preconnect" href="https://d1egza9ueiv2hi.cloudfront.net/">
+        <link rel="preconnect" href="https://d1egza9ueiv2hi.cloudfront.net/" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+            <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&amp;display=swap">
+        <noscript>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&amp;display=swap" rel="stylesheet">
+        </noscript>
+    
+    
+    <!-- Preload resources -->
+    <link rel="preload" href="d1egza9ueiv2hi.cloudfront.net/load/icons/12701/fonts/switch-markets.woff" as="font" type="font/woff"
+          crossorigin>
+
+    
+
+            <!-- Splide slider -->
+        <link rel="preload stylesheet" as="style" href="d1egza9ueiv2hi.cloudfront.net/vendor/splide/splide.min.css" type="text/css">
+    
+                <link rel="preload stylesheet" as="style" href="d1egza9ueiv2hi.cloudfront.net/load/css/12701/markets.css" media="all" type="text/css">
+    
+    <!-- font icons -->
+    <link rel="preload stylesheet" as="style" href="d1egza9ueiv2hi.cloudfront.net/load/icons/12701/styles.css" type="text/css">
+
+            
+    
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicons/favicon-57x57.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicons/favicon-114x114.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicons/favicon-72x72.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicons/favicon-144x144.png"><link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicons/favicon-60x60.png"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicons/favicon-120x120.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicons/favicon-76x76.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicons/favicon-152x152.png"><link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png" sizes="196x196"><link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16"><link rel="icon" type="image/png" href="img/favicons/favicon-128x128.png" sizes="128x128"><link rel="shortcut icon" href="img/favicons/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png"><meta name="application-name" content="&nbsp;">
+<meta name="description" content="Eliminate the fear and uncertainty and trade digital currencies with a fully authorised and regulated broker as one of the world’s fastest-paced markets.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Trade Digital Currencies - Affordableinvprogram">
+<meta property="og:description" content="Eliminate the fear and uncertainty and trade digital currencies with a fully authorised and regulated broker as one of the world’s fastest-paced markets.">
+<meta property="og:image" content="img/meta/general_sm.jpg">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trade Digital Currencies - Affordableinvprogram">
+<meta name="twitter:description" content="Eliminate the fear and uncertainty and trade digital currencies with a fully authorised and regulated broker as one of the world’s fastest-paced markets.">
+<meta name="twitter:image" content="img/meta/general_sm.jpg">
+
+<link rel="canonical" href="">
+
+<title>Trade Digital Currencies - Affordableinvprogram</title>
+
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDDRP6L');
+</script><script id="auc_switchmarkets" src="scripts.prdredir.com/scripts/auc_switchmarkets.js" async>
+</script><script type="application/javascript">
+(function (d, b, t) {
+    "use strict";
+    var s = document.createElement(t), c = (d.getElementsByTagName(t)[0]);
+    s.setAttribute("src", "adscool.net/resources/content/switchmarkets.js");
+    s.setAttribute("async", true);
+    if (c) {
+        var n = c.parentNode; n.insertBefore(s, c);
+    } else {
+        b.appendChild(s);
+    }
+})(document, document.body, "SCRIPT");
+</script><link rel="preconnect" href="https://cdp.switchmarkets.com/"><script src="cdp.switchmarkets.com/switchmarkets.min.js"></script>        <script type="text/javascript">(function(o){var b="https://apenterprise.io/anywhere/",t="fb393882019240a0a901746d5a4f0835b896dd0ea01e404fad2fced94fce579e",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+
+    <!-- Hotjar Tracking Code for https://www.switchmarkets.com/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2087558,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+
+
+<!-- TrustBox script -->
+<script type="text/javascript" src="widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
+
+<script src="d1egza9ueiv2hi.cloudfront.net/js/vimeo-placeholder.min.js"></script>
+
+                            
+                        
+
+</head>
+<body class="preload">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDDRP6L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="pageWrap">
+            
+
+    <!-- Hero -->
+    <section id="internal-hero-content" class="hero bg-gradient-blue-green">
+
+        <header class="">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <div class="menu-container">
+
+                            <div class="btns-wrapper mb-1 justify-content-end">
+                    <a href="{{route('register')}}" class="btn btn-green mr-05">Start trading today</a>
+                    <a href="{{route('login')}}" class="btn btn-white-outline">Login</a>
+                </div>
+                        <a href="/" class="logo d-lg-none"><img class="switchmarkets-logo" src="logo.png" alt="Affordableinvprogram" width="159" height="42"></a>
+                        <div class="menu justify-content-between">
+
+                            <a href="/" class="logo"><img class="switchmarkets-logo" src="logo.png" alt="Affordableinvprogram" width="159" height="42"></a>
+                            <ul class="clearfix">
+                                <!-- Getting Started -->
+                                <li class="dropdown">
+                                    <a href="#">Getting Started <i class="icon icon-chevron-down"></i></a>
+                                    <ul class="w-100 apply-after">
+                                        <li class="d-flex align-items-start pr-1 pl-1">
+                                            <span class="h2 mb-1 d-flex font-weight-medium">Start trading today</span>
+                                            <p>Deposit  into your account<br/>
+                                                Copy any expert trader of your choice and earn profits
+                                            </p>
+                                            <span class="d-flex mt-1">
+                                                <a href="{{route('register')}}" class="btn btn-green mr-05">Start trading today</a>
+                                                <a href="{{route('login')}}" class="btn btn-white btn-border-green">Login</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                               
+                                               
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="font-weight-medium mb-1">Accounts</li>
+                                                <li><a href="{{url('deposits')}}">Deposits</a></li>
+                                                <li><a href="{{url('withdrawals')}}">Withdrawals</a></li>
+                                                
+                                               
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="font-weight-medium mb-1">Range of markets</li>
+                                                <li><a href="{{url('market')}}">Markets</a></li>
+                                                <li><a href="{{url('Speedify-forex')}}">Forex</a></li>
+                                                <li><a href="{{url('commodities')}}">Commodities</a></li>
+                                                <li><a href="{{url('indices')}}">Indices</a></li>
+                                                <li><a href="{{url('currencies')}}">Digital Currencies</a></li>
+                                                <li><a href="{{url('shares')}}">Shares</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- END Getting Started -->
+                
+                                <!-- Platform and Tools -->
+                          
+                                <!-- END Platform and Tools -->
+                
+                                <!-- Offers -->
+                                <li class="dropdown">
+                                    <a href="#">Offers <i class="icon icon-chevron-down"></i></a>
+                                    <ul class="w-100 apply-after">
+                                        <li class="d-flex align-items-start pr-1 pl-1">
+                                            <span class="h2 mb-1 d-flex font-weight-medium">Start trading today</span>
+                                            <p>Deposit into your trading account<br/>
+                                                Copy any of our expert traders and start earning
+                                            </p>
+                                            <span class="d-flex mt-1">
+                                                <a href="{{route('register')}}" class="btn btn-green mr-05">Start trading today</a>
+                                                <a href="{{route('login')}}" class="btn btn-white btn-border-green">Login</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="font-weight-medium mb-1">Offers</li>
+                                                <li><a href="{{url('copy-trade')}}">Copy Trading</a></li>
+                                                                                                                           
+                                                                                                                                                                                                
+                                                                                </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- END Platform and Tools -->
+                
+                                <!-- Company -->
+                                <li class="dropdown">
+                                    <a href="#">Company <i class="icon icon-chevron-down"></i></a>
+                                    <ul class="w-100 apply-after">
+                                        <li class="d-flex align-items-start pr-1 pl-1">
+                                            <span class="h2 mb-1 d-flex font-weight-medium">Start trading today</span>
+                                            <p>Deposit into your trading account<br/>
+                                                Copy any of our expert traders and start earning
+                                            </p>
+                                            <span class="d-flex mt-1">
+                                                <a href="{{route('register')}}" class="btn btn-green mr-05">Start trading today</a>
+                                                <a href="{{route('login')}}" class="btn btn-white btn-border-green">Login</a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li class="font-weight-medium">Company</li>
+                                                <li><a href="{{url('about')}}">About us</a></li>
+                                                <li><a href="{{url('why')}}">Why us</a></li>
+                                                <li><a href="{{url('contact')}}">Contact us</a></li>
+                
+                                                                                                                    </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- END Company -->
+                                <li><a href="{{route('login')}}"> Login</a></li>
+                            </ul>
+            </div>
+        </div>
+        <!-- END Navbar sidebar -->
+
+          <!-- Toggle button -->
+        <button type="button" class="toggle-nav">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+        </button>
+        <!-- END Toggle button -->
+
+        <!-- Navbar sidebar -->
+        <nav class="navbar sidebar">
+            <div class="navbar-nav d-flex justify-content-between flex-column">
+
+                <ul class="d-flex flex-column ul-nav-wrapper">
+                     <!-- Getting started -->
+                    <li class="navbar-nav__item">
+                        <ul class="accordion" style="border-top: none; border-bottom: none">
+                            <span class="link">Getting Started <i class="icon icon-chevron-down"></i></span>
+                            <ul class="block submenu">
+                                <li class="title mb-1">Affordableinvprogram</li>
+                                
+                                <li class="title mt-2 mb-1">Accounts</li>
+                                <li><a href="{{url('deposits')}}">Deposits</a></li>
+                                <li><a href="{{url('withdrawals')}}">Withdrawals</a></li>
+                                
+                               
+
+                                <li class="title mt-2 mb-1">Range of Markets</li>
+                                <li><a href="{{url('market')}}">Markets</a></li>
+                                <li><a href="{{url('Speedify-forex')}}">Forex</a></li>
+                                <li><a href="{{url('commodities')}}">Commodities</a></li>
+                                <li><a href="{{url('indices')}}">Indices</a></li>
+                                <li><a href="{{url('currencies')}}">Digital Currencies</a></li>
+                                <li><a href="{{url('shares')}}">Shares</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <!-- END Getting started -->
+
+                   
+                    <!-- Offers -->
+                    <li class="navbar-nav__item">
+                        <ul class="accordion" style="border-bottom: 0">
+                            <span class="link">Offers <i class="icon icon-chevron-down"></i></span>
+                            <ul class="block submenu">
+                                <li><a href="{{url('copy-trade')}}">Copy</a></li>
+
+                                                            </ul>
+                        </ul>
+                    </li>
+                    <!-- END Offers -->
+
+                    <!-- Company -->
+                    <li class="navbar-nav__item">
+                        <ul class="accordion">
+                            <span class="link">Company <i class="icon icon-chevron-down"></i></span>
+                            <ul class="block submenu">
+                                <li><a href="{{url('about')}}">About us</a></li>
+                                <li><a href="{{url('why')}}">Why us</a></li>
+                                <li><a href="{{url('contact')}}">Contact us</a></li>
+
+                        </ul>
+                    </li>
+                    <!-- END Company -->
+
+                      <li class="navbar-nav__item pl-1 mt-1_5"><a href="{{route('login')}}">Login</a></li>
+
+                </ul>
+
+                <a href="{{route('register')}}" class="btn btn-green mt-0">Open account now</a>
+            </div>
+        </nav>
+
+
+    </div>
+</header>
+
+
+        <div class="d-flex align-items-center flex-column container pb-4 pb-lg-6">
+            <h1 class="font-weight-medium text-white text-center mt-1 mb-1_5">Digital Currencies</h1>
+            <p class="text-center text-white">Access one of the youngest markets available with a fully authorised and regulated broker. Trade some of the most popular digital currencies including Bitcoin, Ethereum and Litecoin.</p>
+            <div class="d-flex align-items-center">
+                <a href="{{route('register')}}" class="btn btn-green mr-1">Open live account</a>
+                <a href="{{route('login')}}" class="btn btn-white-outline">Login</a>
+            </div>
+        </div>
+    </section>
+    <!-- END Hero -->
+
+    <!-- What are Digital Currencies -->
+    <section class="intro-section pt-4">
+        <div class="container">
+            <h2 class="font-weight-medium text-left mb-1">What are Digital Currencies?</h2>
+            <p>Digital currencies or cryptocurrencies are digital coins, designed to be transferred between traders and investors in virtual transactions. It is important to note that digital currencies only exist as data and not physical objects.</p>
+        </div>
+    </section>
+    <!-- END What are Digital Currencies -->
+
+    <!-- Why trade Digital Currencies -->
+    <section class="intro-section">
+        <div class="container">
+            <h2 class="font-weight-medium text-left mb-1">Why trade Digital Currencies?</h2>
+            <p>Digital currencies are the latest sensation in the investing world, and several different types of these currencies have been breaking records in terms of price.</p>
+        </div>
+    </section>
+    <!-- END Why trade Digital Currencies -->
+
+    <!-- Major financial indices --> 
+    <section class="intro-section">
+        <div class="container">
+            <h2 class="font-weight-medium text-left">What Digital Currencies can you trade with Affordableinvprogram?</h2>
+            <div class="mt-1">
+                <div class="accordion">
+
+                    <div class="accordion-item">
+                        <div class="accordion-item-header active">
+                            <h3>Bitcoin CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: initial;">
+                            <div class="accordion-item-body-content">
+                                <p>Bitcoin is the world’s most well-known digital currency. To this day it remains at the top of the market capitalization and popularity amongst traders.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h3>Litecoin CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: 0px;">
+                            <div class="accordion-item-body-content">
+                                <p>While based on Bitcoin’s model, Litecoin differs from Bitcoins in aspects like faster block generation rate and use of script as a proof of work scheme.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h3>Ethereum CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: 0px;">
+                            <div class="accordion-item-body-content">
+                                <p>Ethereum enables smart contracts and Distributed Applications (ĐApps) to be built and run without any downtime, fraud, control, or interference from a third party.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h3>Ripple CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: 0px;">
+                            <div class="accordion-item-body-content">
+                                <p>Ripple is a technology that acts as both a digital currency and a digital payment network for financial transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h3>Dash CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: 0px;">
+                            <div class="accordion-item-body-content">
+                                <p>Dash focuses on transaction speed and privacy thus allowing people all around the world to make instant, anonymous payments in stores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            <h3>Bitcoin Cash CFD <i class="icon icon-chevron-down"></i></h3>
+                        </div>
+                        <div class="accordion-item-body" style="max-height: 0px;">
+                            <div class="accordion-item-body-content">
+                                <p>Bitcoin Cash is a fork of Bitcoin created in August 2017. It was created to accommodate a larger block size and to allow more transactions. Bitcoin Cash empowers merchants and users with low fees, stable and reliable network and system.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!-- END Major financial indices -->
+
+    <!-- Trade Digital Currencies with Affordableinvprogram -->
+    <section class="intro-section pb-3 bullet-list">
+        <div class="container">
+            <h2 class="font-weight-medium text-left mb-1">Trade Digital Currencies with Affordableinvprogram</h2>
+            <div class="columns-grid mb-2">
+                <p class="d-flex align-items-center"><i class="icon icon-milisecond-pip text-blue mr-1"></i> Fast order execution</p>
+                <p class="d-flex align-items-center"><i class="icon icon-sheet-up text-blue mr-1"></i> Leverage up to 1:3</p>
+                <p class="d-flex align-items-center"><i class="icon icon-happy-face text-blue mr-1"></i> Friendly, expert support available 24/5 via live chat</p>
+                <p class="d-flex align-items-center"><i class="icon icon-commission-icon text-blue mr-1"></i> No hidden fees</p>
+            </div>
+            <div class="d-flex">
+                <a href="{{route('register')}}" class="btn btn-green mr-05">Start trading today</a>
+                <a href="{{route('login')}}" class="btn btn-white btn-border-green">Login</a>
+            </div>
+        </div>
+    </section>
+    <!-- END Trade Digital Currencies with Affordableinvprogram -->
+
+    <!-- Ultra-competetive spreads -->
+    <section class="pb-4">
+        <div class="container">
+            <h2 class="font-weight-medium text-left mb-1">Ultra-competitive spreads</h2>
+            <p>Affordableinvprogram offers some of the tightest spreads on the market.</p>
+            <!-- table -->
+                        
+<div class="table-tabs-wrapper">
+    <div class="header-tabs spreads-header" style="border: none; margin: 0">
+        <span class="instrument-type active" data-type="crypto" style="display: none">crypto</span>
+        <div class="d-flex">
+                            <span class="account-type active"
+                      data-type="s_core">Pro accounts</span>
+                            <span class="account-type "
+                      data-type="s_cl">Standard (Regular)</span>
+                    </div>
+    </div>
+            <div class="table-tab" data-type="crypto" data-account_type="s_core">
+            <table class="responsive-table tabs-header spreadsTable" data-type="crypto"
+                   data-account_type="s_core">
+                <thead>
+                <tr>
+                    <th scope="col">Instrument</th>
+                    <th scope="col">Bid Price</th>
+                    <th scope="col">Ask Price</th>
+                    <th scope="col">Spread</th>
+                    <th scope="col">Change</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="6"
+                        class="initMsg">Waiting for price to populate table. We stream price live, if this table does not populate you may have a firewall blocking your connection to our servers.
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+            <div class="table-tab" data-type="crypto" data-account_type="s_cl">
+            <table class="responsive-table tabs-header spreadsTable" data-type="crypto"
+                   data-account_type="s_cl">
+                <thead>
+                <tr>
+                    <th scope="col">Instrument</th>
+                    <th scope="col">Bid Price</th>
+                    <th scope="col">Ask Price</th>
+                    <th scope="col">Spread</th>
+                    <th scope="col">Change</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="6"
+                        class="initMsg">Waiting for price to populate table. We stream price live, if this table does not populate you may have a firewall blocking your connection to our servers.
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <span class="text-small text-grey table-note d-block text-left">*Price updates every 5 seconds</span>
+</div>
+
+<script>
+    'use strict';
+    (function () {
+        let table_tabs_content = document.querySelectorAll('.table-tabs-wrapper .table-tab');
+        let instrument_type_buttons = document.querySelectorAll('.header-tabs .instrument-type');
+        let account_type_buttons = document.querySelectorAll('.header-tabs .account-type');
+
+        for (let i = 0; i < instrument_type_buttons.length; i++) {
+            instrument_type_buttons[i].addEventListener('click', event => {
+                /*remove all "active" classes*/
+                instrument_type_buttons.forEach(e => e.classList.remove("active"));
+
+                //add "active" class to clicked element
+                instrument_type_buttons[i].classList.add("active");
+                show_relevent_table()
+
+            });
+        }
+        account_type_buttons.forEach(account_type_button => {
+            account_type_button.addEventListener('click', () => {
+                account_type_buttons.forEach(btn => {
+                    btn.classList.remove('active');
+                })
+                account_type_button.classList.add('active');
+                show_relevent_table();
+            })
+        })
+
+        function show_relevent_table() {
+            table_tabs_content.forEach(e => e.classList.remove("active"));
+            // table_tabs_content[i].classList.add("active");
+            let active_account_type = get_type(account_type_buttons);
+            let active_instrument_type = get_type(instrument_type_buttons);
+            table_tabs_content.forEach(table=>{
+                if (table.dataset.type==active_instrument_type&&table.dataset.account_type==active_account_type){
+                    table.classList.add('active');
+                }
+            })
+
+
+            function get_type(list_buttons) {
+                for (let i in list_buttons) {
+                    if (list_buttons[i].classList.contains('active')) {
+                        return list_buttons[i].dataset.type;
+                    }
+                }
+            }
+
+        }
+        show_relevent_table();
+    })();
+</script>
+
+            <!-- END table -->
+        </div>
+    </section>
+    <!-- END Ultra-competetive spreads -->
+
+    <!-- Using MetaTrader 4 -->
+    <section class="text-center pt-3 pt-lg-5 bg-light">
+        <div id="metatrader-wrapper" class="columns-grid position-relative align-items-end pb-6 container">
+
+            <div class="text-block pr-1 text-left">
+                <h2 class="subheading">Trade Digital Currencies with Affordableinvprogram using MetaTrader 4</h2>
+                <p class="mt-1">
+                    With Affordableinvprogram you have the opportunity to trade on the award-winning MetaTrader 4  platform (MT4). All you need to do is hit the download button and you’ll be trading in no time.
+                    <br/><br/>
+                    It's one of the world's most downloaded and used trading platforms. It’s easy to use, packed with awesome features and allows automated trading. Intrigued?
+                </p>
+                
+                <a href="{{route('register')}}" class="btn btn-green mt-2">Download MT4</a>
+            </div>
+
+            <div class="shape-bg text-center">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/trading-terminals.png" alt="devices" class="devices">
+                <img src="https://d1egza9ueiv2hi.cloudfront.net/img/sm-long-shape.svg" alt="shape" class="shape-img">
+            </div>
+        </div>
+    </section>
+    <!-- END Using MetaTrader 4 -->
+
+    <!-- Your Money is safe with us -->
+                            <section class="container columns-grid pt-lg-7 pb-lg-7 pt-3 pb-5 align-items-start deposit-withdrawal-section">
+        <div class="deposit-withdrawal-wrapper">
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/logos/mastercard-simple.png" alt="mastercard logo" width="51" height="40" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/logos/visa-simple.png" alt="visa logo" width="73" height="24" loading="lazy">
+            </div>
+            <div class="card-logo d-flex flex-column">
+                <i class="icon icon-data-centre text-blue" style="font-size: 20px"></i>
+                <span class="text-xs text-light-grey mt-05">Bank Wire</span>
+            </div>
+            <div class="card-logo d-flex flex-column">
+                <i class="icon icon-crypto text-blue" style="font-size: 20px"></i>
+                <span class="text-xs text-light-grey mt-05">Digital Currencies</span>
+            </div>
+
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/nganluong.png" alt="nganluong logo" width="121" height="29" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/globepay.png" alt="Globepay logo" width="96" height="26" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/perfect-money.png" alt="Perfect Money logo" width="110" height="32" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/paytrust.png" alt="PayTrust logo" width="110" height="25" loading="lazy">
+            </div>
+
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/union-pay.png" alt="Union Pay logo" width="56" height="35" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/skrill.png" alt="Skrill logo" width="60" height="20" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/fasapay.png" alt="Fasapay logo" width="115" height="22" loading="lazy">
+            </div>
+            <div class="card-logo">
+                <img src="d1egza9ueiv2hi.cloudfront.net/img/icons/ewallets/neteller.png" alt="Neteller logo" width="106" height="19" loading="lazy">
+            </div>
+        </div>
+
+        <div class="order-n1 order-lg-2">
+            <h2 class="text-green">Your money, your way.</h2>
+            <p class="mt-1 font-weight-medium">At Affordableinvprogram we believe all traders are entitled to a fast, hassle-free experience when it comes to your funds.</p>
+
+            <div class="d-block">
+                <p class="mt-1 d-flex align-items-center"><i class="icon icon-check mr-05"></i> Near-instant deposits</p>
+                <p class="mt-1 d-flex align-items-center"><i class="icon icon-check mr-05"></i> Fast withdrawals</p>
+                <p class="mt-1 d-flex align-items-center"><i class="icon icon-check mr-05"></i> No deposit fees</p>
+            </div>
+
+            <a href="{{route('register')}}" class="btn btn-green mt-1_5">Explore all Deposit & Withdrawal options</a>
+        </div>
+    </section>    <!-- END Your Money is safe with us -->
+
+    <!-- 3 steps -->
+    <section class="steps bg-light">
+        <div class="bg-wave">
+            <div class="container position-relative pb-7">
+                <h2>Start trading with Affordableinvprogram in 3 simple steps</h2>
+                <div class="grid grid-2">
+                    <div class="step-1">
+                        <img src="img/icons/01.svg" alt="step 1 icon">
+                        <h3>Let's Go</h3>
+                        <p>Create an account</p>
+                        <a href="{{route('login')}}" target="_blank" class="btn btn-green-outline">Login</a>
+                    </div>
+                    <div class="step-2">
+                        <img src="img/icons/02.svg" alt="step 2 icon">
+                        <h3>Trade</h3>
+                        <p>Open a live account, deposit your funds and  start trading with your preferred trader. Good luck!</p>
+                        <a href="{{route('register')}}" target="_blank" class="btn btn-green">Open live account</a>
+                    </div>
+                    <div class="step-3">
+                        <img src="img/icons/03.svg" alt="step 3 icon">
+                        <h3>Withdraw</h3>
+                        <p>Withdraw your funds almost instantly and without any hassle through any of our supported methods.</p>
+                    </div>
+                </div>
+                <img src="img/icons/line.svg" alt="progress line" class="line">
+            </div>
+        </div>
+    </section>
+    <!-- END 3 steps -->
+
+    <!-- testimonial slider -->
+    <!-- Testimonials -->
+
+<section class="comment-area pt-4 pb-5" id="testimonials-section">
+    <div class="content-wrapper container-lg d-flex flex-wrap justify-content-around align-items-center pr-1 pl-1">
+
+        <div class="text-left">
+            <h2 class="font-weight-medium">Join our happy traders</h2>
+            <!-- TrustBox widget - Micro Review Count --><!-- End TrustBox widget -->
+        </div>
+
+        <div class="d-flex flex-column align-items-center testimonial-slider">
+
+            <span class="testimonial">
+                <div id="trustpilot-splide" class="splide mt-3">
+                    <div class="splide__track trustpilot-reviews">
+                        <ul class="splide__list">
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">Christopher Faron</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;Great broker, fully recommend.&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">Benaiah Hlebeya</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;The best broker care for the clients&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">Richard</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;An exceptional broker&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">shaanshii</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;Highly Recommend&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">Pill Taker</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;Really good&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="splide__slide">
+                                <div class="slick-content">
+                                    <div class="testimonial-wrapper">
+                                        <i class="icon icon-quote"></i>
+                                        <span class="text-small mt-1 d-block">Christopher Faron</span>
+
+                                        <p class="mt-2 text-md font-weight-bold">
+                                        &#8220;Very happy with this broker, decent spreads, pretty reliable. The copy trade is such a great deal. Fully recommend.&#8221;
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                </ul>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <picture>
+        <source srcset="https://d1egza9ueiv2hi.cloudfront.net/img/chat.webp" type="image/webp">
+        <img src="d1egza9ueiv2hi.cloudfront.net/img/chat.jpg" width="1300" height="495" loading="lazy" alt="user faces" class="testimonial-bg"/>
+    </picture>
+    <div class="filter"></div>
+    <span class="chat-arrow"></span>
+</section>
+<!-- END Testimonials -->
+
+<!-- Need to place it inside the page footer, not here -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new Splide('#trustpilot-splide', {
+                type: 'loop',
+                perPage: 1,
+                flickMaxPages: 1,
+                rewind : true,
+                autoplay: true,
+                interval: 5000,
+                easing: "ease",
+                pagination: false,
+                arrows: true,
+                gap: 10,
+                throttle: 300,
+                breakpoints: {
+                    767: {
+                        pagination: true,
+                        arrows: false,
+                    }
+                }
+            }).mount();
+        });
+    </script>
+    <!-- END testimonial slider -->
+
+    <div id="cookie-msg-wrapper" class="hidden">
+   
+</div>
+<footer class="bg-dark-blue text-white">
+
+    <div class="columns-grid grid-sm container align-items-start">
+        <div class="d-flex flex-column">
+
+            <span class="mb-1 font-weight-medium">Affordableinvprogram</span>
+            <a class="mb-05" href="#">Trading conditions</a>
+            <a class="mb-05" href="#">Cost of trading</a>
+            <a class="mb-05" href="#/swap-rates">Swap Rates</a>
+            <a class="mb-05" href="#/trading-hours">Trading hours</a>
+
+        </div>
+         <div class="d-flex flex-column">
+            <span class="mb-1 font-weight-medium">Accounts</span>
+            <a class="mb-05" href="{{url('deposits')}}">Deposits</a>
+            <a class="mb-05" href="{{url('withdrawals')}}">Withdrawals</a>
+        
+        </div>
+        <div class="d-flex flex-column">
+            <span class="mb-1 font-weight-medium">Range of markets</span>
+            <a class="mb-05" href="{{url('market')}}">Markets</a>
+            <a class="mb-05" href="{{url('Speedify-forex')}}">Currency Market</a>
+            <a class="mb-05" href="{{url('commodities')}}">Commodities</a>
+            <a class="mb-05" href="{{url('indices')}}">Indices</a>
+                            <a class="mb-05" href="{{url('currencies')}}">Digital Currencies</a>
+                        <a class="mb-05" href="{{url('shares')}}">Shares</a>
+        </div>
+        <div class="d-flex flex-column">
+            <span class="mb-1 font-weight-medium">Platform and Tools</span>
+           
+          
+        </div>
+        <div class="d-flex flex-column">
+            <span class="mb-1 font-weight-medium">Offers</span>
+            <a class="mb-05" href="#">Copy Trading</a>
+            
+                    </div>
+        <div class="d-flex flex-column">
+            <span class="mb-1 font-weight-medium">Company</span>
+            <a class="mb-05" href="{{url('about')}}">About us</a>
+            <a class="mb-05" href="{{url('why')}}">Why us</a>
+            <a class="mb-05" href="{{url('contact')}}">Contact us</a>
+
+        </div>
+        <div class="footer-social">
+        
+        </div>
+        <div class="d-flex flex-wrap footer-tools">
+           
+           
+
+        </div>
+    </div>
+
+
+
+    <div class="base-footer">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <span>Copyright &#169; 2020-2024 Affordableinvprogram  | All rights reserved.</span>
+
+           
+</footer>
+
+
+
+</div>
+
+
+    <script src="d1egza9ueiv2hi.cloudfront.net/vendor/splide/splide.min.js"></script>
+
+<script async defer src="www.google.com/recaptcha/apibc86.js?render=6LcH_L8aAAAAAOj9rI5bdYXDjXgvAnUYVqWPXpcY"></script>
+<script>
+    var sm_app = Object();
+    sm_app.socket_url = 'https://www.switchmarkets.com:8443/';
+    sm_app.trsocket_url = 'https://traderoom.forexsignals.com:8880/';
+    sm_app.cdn_url = 'https://d1egza9ueiv2hi.cloudfront.net/';
+    sm_app.mouse = Object();
+    sm_app.mouse.clientX = 0;
+    sm_app.mouse.clientY = 0;
+    sm_app.assetsVersion = '12701';
+    sm_app.isMobileDevice = false;
+
+//    economic calendar
+    sm_app.browser = Object();
+    sm_app.economicCalendar = Object();
+    sm_app.economicCalendar.startts = 0;
+    sm_app.economicCalendar.endts = 0;
+    sm_app.economicCalendar.headerCount = 0;
+    sm_app.economicCalendar.filter = Object();
+    sm_app.economicCalendar.filter.impact =-1;
+    sm_app.economicCalendar.filter.country ='';
+    sm_app.economicCalendar.tableHeight = 0 ;
+    sm_app.config = Object();
+        sm_app.econCalendarConnectUrl = 'https://traderoom.forexsignals.com:8880/';
+    sm_app.cdn = 'https://d1egza9ueiv2hi.cloudfront.net/';
+    sm_app.socket = Object();
+    sm_app.socket.init = false;
+    sm_app.trSocket = Object();
+    sm_app.trSocket.connected = false;
+    sm_app.smSocket = Object();
+    sm_app.smSocket.connected = false;
+
+    // forex forecast challenge
+        
+</script><script async defer src="d1egza9ueiv2hi.cloudfront.net/load/js/12701/global.min.js"></script>
+
+
+    <script>
+    "use strict";
+    (function(){
+        var accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
+
+        accordionItemHeaders.forEach(accordionItemHeader => {
+          accordionItemHeader.addEventListener("click", event => {
+            accordionItemHeader.classList.toggle("active");
+            const accordionItemBody = accordionItemHeader.nextElementSibling;
+            if(accordionItemHeader.classList.contains("active")) {
+              accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+            }
+            else {
+              accordionItemBody.style.maxHeight = 0;
+            }
+          });
+        });
+    })();
+</script>    <script src="cdn.jsdelivr.net/npm/socket.io-client%402/dist/socket.io.js" async></script>
+<script>
+    var smSocket = new function() {
+        this.socket_url = sm_app.socket_url;
+        let self=this;
+        var socket_load = setInterval(() => {
+            if (typeof (io) === 'function') {
+                clearInterval(socket_load);
+                this.connect();
+            }
+        }, 250)
+
+        this.connect = () => {
+            if (this.socket_url.length > 0) {
+                this.socket = io.connect(this.socket_url);
+                this.initLoad = false;
+
+                this.socket.on('connect', () => {
+                    console.log("sm connect");
+                    sm_app.smSocket.connected = true;
+
+                    if (sm_app.ffc) {
+                        this.joinFFC();
+                    }
+                    if (sm_app.needQuotes){
+                        this.socket.emit('requestQuoteStream',sm_app.needQuotes.pairs_needed);
+                    }
+                });
+
+                this.socket.on('reconnect', () => {
+                    console.log("sm reconnect");
+
+                    if (sm_app.ffc) {
+                        const $ffcScreen = document.querySelector('.ffc-screen');
+                        if ($ffcScreen) {
+                            const event = new CustomEvent('socketReconnected');
+                            $ffcScreen.dispatchEvent(event);
+                        }
+                    }
+                });
+
+                this.socket.on('price', (data) => {
+                    // Pass this data to the pair function and let it handle it.
+                    if (typeof (sm_price) === 'object') {
+                        sm_price.update(data);
+                    } else {
+                        console.error("sm_price function does not exist");
+                    }
+                });
+                if (!this.initLoad) {
+                    this.initLoad = true;
+
+                    if (typeof (sm_price) === 'object') {
+                        this.socket.emit('pairs', {}, (data) => {
+                            sm_price.update(data);
+                        })
+                    }
+
+                    if (typeof (sm_calculator) === 'object') {
+                        this.socket.emit('specificPairs', {}, (data) => {
+                            sm_calculator.update(data);
+                        })
+                    }
+
+                    if (typeof (pip_calculator) === 'object') {
+                        this.socket.emit('specificPairs', {}, (data) => {
+                            pip_calculator.update(data);
+                        })
+                    }
+                    if (typeof (swap_calculator) === 'object') {
+                        this.socket.emit('specificPairs', {}, (data) => {
+                            swap_calculator.update_list_pairs(data);
+                        })
+                        this.socket.emit('getSwaps', {}, (data) => {
+                            swap_calculator.update_swaps(data);
+                        })
+                    }
+                    if (typeof (margin_calculator) === 'object') {
+                        this.socket.emit('specificPairs', {}, (data) => {
+                            margin_calculator.update_list_pairs(data);
+                        })
+                    }
+
+                    this.getChartData = function (params) {
+                        return new Promise((resolv) => {
+                            this.socket.emit('requestHistory', params, (history) => {
+                                resolv(history);
+                            })
+                        })
+                    }
+
+
+                }
+                this.socket.on('disconnect', function () {
+                    sm_app.smSocket.connected = false;
+                });
+
+                this.socket.on('FFCWinners', (data) => {
+                    const winner = data.winners.find((item) => parseInt(item.userid) === parseInt(sm_app.ffc.userid));
+                    const event = new CustomEvent('FFCWinners', { 
+                        detail: { 
+                            id: data.id, 
+                            pairs: data.pairs,
+                            prize: winner ? winner.prize : 0,
+                            pairsGuessedInOrder: winner ? winner.pairsguessedinorder : 0,
+                            outcome: winner ? 'won' : 'lost',
+                            winners: data.winners
+                        } 
+                    });
+                    document.querySelector('.ffc-screen').dispatchEvent(event);
+                });
+
+                this.socket.on('liveQuotes', function (quotes) {
+                    // console.log(quotes);
+                });
+            }
+        }
+        this.requestHistory = function (params){
+            return new Promise((resolv)=> {
+                this.socket.emit('requestHistory',params,(history)=> {
+                    resolv(history);
+                })
+
+            })
+        }
+        this.getPairs = function () {
+            console.log("emit");
+            this.socket.emit('pairs', '', (data) => {
+                if (typeof (sm_price) === 'object') {
+                    sm_price.update(data);
+                }
+            })
+        }
+        this.joinFFC = function (){
+            console.log('joined #FFC');
+            this.socket.emit('joinFFC');
+        }
+    }
+    /*
+       example of getting history
+       timeframes: 1d,1h,4h,5m,1m,15m,30m,1w,1mn
+       try not to request too many bars to get reply quicker
+    */
+
+
+
+
+
+</script>
+    <script>
+    var sm_price = new function () {
+        this.pairs = [];         this.update = (data) => {
+            if (data) {
+                data.forEach(row => {
+                    this.pairs[row.symbol] = row;
+                    if ((row.type) == 'crypto' || (row.type) == 'stock') {
+                        let ask = this.pairs[row.symbol].ask;
+                        let bid = this.pairs[row.symbol].bid;
+                        this.pairs[row.symbol].ask = parseFloat(ask).toFixed(2);
+                        this.pairs[row.symbol].bid = parseFloat(bid).toFixed(2);
+                        this.pairs[row.symbol]['spread'] = (ask - bid).toFixed(2);
+                    }
+                })
+            }
+
+// console.log(this.pairs);
+            setTimeout(() => {
+                var els = document.getElementsByClassName("bids-cards-wrapper");
+                for (var x = 0; x < els.length; x++) {
+                    var el = els[x].getElementsByClassName("currency-card");
+                    for (var l = 0; l < el.length; l++) {
+                        if (this.pairs[el[l].dataset.currency]) {
+                            try {
+                                el[l].querySelector('[data-bid]').innerHTML = this.pairs[el[l].dataset.currency].bid;
+                                el[l].querySelector('[data-ask]').innerHTML = this.pairs[el[l].dataset.currency].ask;
+                                el[l].querySelector('[data-spread]').innerHTML = this.pairs[el[l].dataset.currency].spread;
+                                el[l].querySelector('[data-daily]').innerHTML = this.pairs[el[l].dataset.currency].dailyPercentage + "%" + (this.pairs[el[l].dataset.currency].dailyPercentage < 0 ? ' <i class="icon icon-triangle-down"></i>' : ' <i class="icon icon-triangle-up"></i>');
+                                                                if (el[l].dataset.daily != this.pairs[el[l].dataset.currency].daily) {
+                                    el[l].dataset.daily = this.pairs[el[l].dataset.currency].dailyPercentage;
+                                    el[l].querySelector('[data-daily]').classList.remove('down-trade');
+                                    el[l].querySelector('[data-daily]').classList.remove('up-trade');
+                                    el[l].querySelector('[data-daily]').classList.add((this.pairs[el[l].dataset.currency].dailyPercentage < 0 ? 'down-trade' : 'up-trade'));
+                                    el[l].querySelector('[data-image').innerHTML = this.pairs[el[l].dataset.currency].dailyPercentage < 0 ? `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/down-trade-graph.svg" alt="down trade chart" width="80px" height="20px">` : `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/up-trade-graph.svg" alt="up trade chart" width="80px" height="20px">`;
+                                }
+                                if (el[l].dataset.direction != this.pairs[el[l].dataset.currency].direction) {
+                                    el[l].dataset.direction = this.pairs[el[l].dataset.currency].direction;
+                                    el[l].querySelector('[data-bid]').classList.remove('down-trade');
+                                    el[l].querySelector('[data-bid]').classList.remove('up-trade');
+                                    el[l].querySelector('[data-bid]').classList.add((this.pairs[el[l].dataset.currency].dailyPercentage < 0 ? 'down-trade' : 'up-trade'));
+                                    el[l].querySelector('[data-ask]').classList.remove('down-trade');
+                                    el[l].querySelector('[data-ask]').classList.remove('up-trade');
+                                    el[l].querySelector('[data-ask]').classList.add((this.pairs[el[l].dataset.currency].dailyPercentage < 0 ? 'down-trade' : 'up-trade'));
+                                }
+
+                            } catch (err) {
+                                console.error(err);
+                            }
+                        }
+                    }
+                }
+                if (sm_app.ffc && Object.keys(this.pairs).length) {
+                    // dashboard prices
+                    const ffcScreen = document.querySelector('.ffc-screen');
+                    if (ffcScreen) {
+                        const event = new CustomEvent('newPrice', {
+                            detail: {
+                                'time': Math.floor((new Date()).getTime() / 1000),
+                                'EURUSD': this.pairs['EURUSD.s_core'].bid,
+                                'GBPUSD': this.pairs['GBPUSD.s_core'].bid,
+                                'AUDUSD': this.pairs['AUDUSD.s_core'].bid,
+                            }
+                        });
+                        ffcScreen.dispatchEvent(event);
+                    }
+                    // chart prices
+                    const ffcChart = document.querySelector('#ffc-chart-div');
+                    if (ffcChart) {
+                        const event = new CustomEvent('newPrice', {
+                            detail: {
+                                'time': Math.floor((new Date()).getTime() / 1000),
+                                'EURUSD': this.pairs['EURUSD.s_core'].bid,
+                                'GBPUSD': this.pairs['GBPUSD.s_core'].bid,
+                                'AUDUSD': this.pairs['AUDUSD.s_core'].bid,
+                            }
+                        });
+                        ffcChart.dispatchEvent(event);
+                    }
+                }
+                var tables = document.getElementsByClassName('spreadsTable');
+                if (tables !== null) {
+                    for (var x = 0; x < tables.length; x++) {
+                        var table = tables[x];
+
+                        if (table.getElementsByClassName("initMsg")[0]) {
+                            table.getElementsByClassName("initMsg")[0].style.display = 'none';
+                        }
+
+                        var type = table.dataset.type;
+                        var account_type = table.dataset.account_type;
+                        if (type !== 'undefined' && account_type !== 'undefined') {
+                            data.forEach((pair) => {
+                                try {
+                                    if (pair.type == type && pair.type_account == account_type) {
+                                        if (!table.rows.namedItem(pair.symbol)) {
+                                            var row = table.insertRow(table.rows.length);
+                                            row.setAttribute("data-daily", pair.dailyPercentage);
+                                            row.setAttribute("data-direction", pair.direction);
+                                            row.setAttribute("id", pair.symbol);
+                                            let symbol_name = pair.symbol.replace('.s_cl', '');
+                                            symbol_name = symbol_name.replace('.s_core', '');
+                                            symbol_name = symbol_name.replace('.s_vip', '');
+                                            var instrument = row.insertCell(0);
+                                            instrument.innerHTML = symbol_name;
+                                            instrument.dataset.label = "Instrument";
+                                            var bid = row.insertCell(1);
+                                            bid.innerHTML = pair.bid;
+                                            bid.dataset.label = "Bid Price";
+                                            bid.classList.add(pair.dailyPercentage < 0 ? 'down-trade' : 'up-trade');
+                                            var ask = row.insertCell(2);
+                                            ask.innerHTML = pair.ask;
+                                            ask.dataset.label = "Ask Price";
+                                            ask.classList.add(pair.dailyPercentage < 0 ? 'down-trade' : 'up-trade');
+                                            var spread = row.insertCell(3);
+                                            spread.innerHTML = pair.spread;
+                                            spread.dataset.label = "Spread";
+                                            var daily = row.insertCell(4);
+                                            daily.innerHTML = pair.dailyPercentage;
+                                            daily.dataset.label = "Change";
+                                            daily.classList.add(pair.dailyPercentage >= 0 ? 'up-trade' : 'down-trade');
+                                            var img = row.insertCell(5);
+                                            img.innerHTML = pair.dailyPercentage < 0 ? `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/down-trade-graph.svg" alt="down trade chart" width="80px" height="20px">` : `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/up-trade-graph.svg" alt="up trade chart" width="80px" height="20px">`;
+                                            img.dataset.label = "Trend";
+                                        } else {
+                                            var rows = table.getElementsByTagName("tr");
+                                            for (var y = 0; y < rows.length; y++) {
+                                                if (rows[y].id == pair.symbol) {
+                                                    table.rows[y].cells[1].innerHTML = pair.bid;
+                                                    table.rows[y].cells[2].innerHTML = pair.ask;
+                                                    table.rows[y].cells[3].innerHTML = pair.spread;
+                                                    table.rows[y].cells[4].innerHTML = pair.dailyPercentage;
+
+                                                    if (table.rows[y].dataset.direction != pair.direction) {
+                                                        table.rows[y].cells[1].classList.remove('up-trade');
+                                                        table.rows[y].cells[1].classList.remove('down-trade');
+                                                        table.rows[y].cells[1].classList.add(pair.dailyPercentage < 0 ? 'down-trade' : 'up-trade');
+                                                        table.rows[y].cells[2].classList.remove('up-trade');
+                                                        table.rows[y].cells[2].classList.remove('down-trade');
+                                                        table.rows[y].cells[2].classList.add(pair.dailyPercentage < 0 ? 'down-trade' : 'up-trade');
+                                                    }
+                                                    if (table.rows[y].dataset.daily != pair.dailyPercentage) {
+                                                        table.rows[y].cells[4].classList.remove('up-trade');
+                                                        table.rows[y].cells[4].classList.remove('down-trade');
+                                                        table.rows[y].cells[4].classList.add(pair.dailyPercentage >= 0 ? 'up-trade' : 'down-trade');
+                                                        table.rows[y].cells[5].innerHTML = pair.dailyPercentage < 0 ? `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/down-trade-graph.svg" alt="down trade chart" width="80px" height="20px">` : `<img src="https://d1egza9ueiv2hi.cloudfront.net/img/up-trade-graph.svg" alt="up trade chart" width="80px" height="20px">`;
+                                                    }
+                                                    break;
+                                                }
+                                            }
+                                        }
+                                    }
+                                } catch (err) {
+                                    console.error(err);
+                                }
+                            })
+                        }
+                    }
+                }
+            }, 50);
+        }
+    }
+</script>
+
+    <script>
+        window.addEventListener("load", () => {
+            sm_func.getMyTime();
+        });
+    </script>
+    
+
+
+
+
+
+<!-- The exit Modal -->
+
+
+
+<!-- END The exit Modal -->
+
+</body>
+
+<!-- Mirrored from www.switchmarkets.com/markets/digital-currencies by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Jan 2024 16:25:20 GMT -->
+</html>
