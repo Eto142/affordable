@@ -142,9 +142,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -157,9 +157,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -172,9 +172,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -188,9 +188,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -214,9 +214,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
 
         $response2 = $client->get('https://api.coingecko.com/api/v3/simple/price', [
@@ -271,9 +271,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -331,9 +331,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -351,9 +351,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -425,9 +425,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -440,9 +440,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -456,9 +456,9 @@ class UserController extends Controller
     {
 
         $client = new Client();
-        $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+        $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
         $data = json_decode($response->getBody(), true);
-        $price = $data['bpi']['USD']['rate_float'];
+        $price = $data['bitcoin']['usd'];
 
         $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
         $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');
@@ -1131,9 +1131,9 @@ class UserController extends Controller
         
         
                 $client = new Client();
-                $response = $client->get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+                $response = $client->get('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
                 $data = json_decode($response->getBody(), true);
-                $price = $data['bpi']['USD']['rate_float'];
+                $price = $data['bitcoin']['usd'];
 
                 $data['credit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('credit');
                 $data['debit'] = Transaction::where('user_id', Auth::user()->id)->where('status', '1')->sum('debit');

@@ -1,186 +1,105 @@
-
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
-    <title>Affordableinvprogram | Account</title>
+    <title>Affordableinvprogram | Verify Email</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesbrand" name="author" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-    <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-    <!-- Icons Css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <!-- App Css-->
-    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-
+    <meta content="Verify your Affordableinvprogram account" name="description" />
+    <link rel="icon" type="image/png" href="{{ asset('logo1.png') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="{{ asset('auth/style.css') }}" rel="stylesheet">
 </head>
+<body class="auth-page">
 
-<body style="background-color: rgb(5, 5, 66)">
-    <div class="account-pages my-5 pt-sm-5" style="background-color: rgb(5, 5, 66)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 col-xl-5">
-                    <div class="card overflow-hidden">
-                        <div class="" style="background-color:rgb(123, 194, 123)">
-                            <div class="row">
-                                <div class="col-7">
-                                    <div class="text-primary p-4">
-                                        <h5 class="" style="color: white">Welcome Back !</h5>
-                                        <p style="color: white">Sign in to continue to Affordableinvprogram.</p>
-                                    </div>
-                                </div>
-                                <div class="col-5 align-self-end">
-                                    <img src="assets/images/profile-img.png" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
+    <div class="auth-wrapper">
+        <!-- Left Branding Panel -->
+        <div class="auth-brand-panel">
+            <div class="auth-brand-content">
+                <a href="/"><img src="{{ asset('logo1.png') }}" alt="Affordableinvprogram" class="auth-logo-img"></a>
+                <h2 class="auth-brand-title">One Last Step</h2>
+                <p class="auth-brand-subtitle">We've sent a verification PIN to your email. Enter it below to activate your account and start trading.</p>
+                <div class="auth-brand-features">
+                    <div class="auth-brand-feature"><i class="fas fa-envelope-open-text"></i> Check your inbox for the PIN</div>
+                    <div class="auth-brand-feature"><i class="fas fa-clock"></i> PIN expires in 15 minutes</div>
+                    <div class="auth-brand-feature"><i class="fas fa-redo"></i> Didn't receive it? Request a new one</div>
+                    <div class="auth-brand-feature"><i class="fas fa-check-double"></i> Verify once, trade forever</div>
+                </div>
+                <div class="auth-brand-stats">
+                    <div class="auth-brand-stat"><span>150K+</span>Traders</div>
+                    <div class="auth-brand-stat"><span>120+</span>Countries</div>
+                    <div class="auth-brand-stat"><span>$2.8B+</span>Volume</div>
+                </div>
+            </div>
+        </div>
 
-                        <div class="card-body pt-0">
-                            <div class="auth-logo">
-                                <a class="auth-logo-light">
-                                    <div class="avatar-md profile-user-wid mb-4">
-                                        <span class="avatar-title rounded-circle bg-light">
-                                                <img src="assets/images/logo-light.svg" alt="" class="rounded-circle" height="34">
-                                            </span>
-                                    </div>
-                                </a>
+        <!-- Right Form Panel -->
+        <div class="auth-form-panel">
+            <div class="auth-form-container">
+                <a href="/" class="auth-mobile-logo"><img src="{{ asset('logo1.png') }}" alt="Logo" height="40"></a>
 
-                                <a class="auth-logo-dark">
-                                    <div class="avatar-md profile-user-wid mb-4">
-                                        <span class="avatar-title rounded-circle bg-light">
-                                                <img src="assets/images/logo.svg" alt="" class="rounded-circle" height="34">
-                                            </span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="p-2">
-                                <p class="response"></p>
-                                    <div class="register-box-body">
-      <h3 class="login-box-msg"> Your PIN is on the way</h3>
-      <p class="login-box-msg">
-      <p>An email containing your 4-digit PIN is has been sent to {{Auth::user()->email}}
-
-
-        If you haven’t received it in a minute or two, click
-        <a href="{{route('resendCode',Auth::user()->id)}}">
-          <p>‘Resend PIN’.</p>
-        </a>
-                             
-
-                                   <form class="form-horizontal" action="{{ route('code') }}"  method="POST" >
-                                         @csrf
-                                      
-                                        <div class="mb-3">
-                                        <label for="username" class="form-label">Digits</label>
-                                        <input type="number" name="digit" class="form-control" placeholder="Enter pin" required>
-                                                                           
-                                    </div>
-
-                                   <div class="form-group">
-                                      <button name="next" class="btn btn-lg btn-primary btn-block">Next</button>
-                                    </div>
-                                    </form>
-                                     <form method="POST" action="{{ route('logout') }}">
-                                    @csrf
-                                     <div class="form-group">
-                                      <button name="next" class="btn btn-lg btn-primary btn-block">Logout</button>
-                                    </div>
-                                  </form><!-- form -->
-                            </div>
-
-                        </div>
+                <!-- Step Progress -->
+                <div class="auth-steps">
+                    <div class="auth-step completed">
+                        <div class="auth-step-num"><i class="fas fa-check" style="font-size:0.7rem"></i></div>
+                        <span class="auth-step-label">Account</span>
                     </div>
-                   
+                    <div class="auth-step-line done"></div>
+                    <div class="auth-step completed">
+                        <div class="auth-step-num"><i class="fas fa-check" style="font-size:0.7rem"></i></div>
+                        <span class="auth-step-label">Details</span>
+                    </div>
+                    <div class="auth-step-line done"></div>
+                    <div class="auth-step active">
+                        <div class="auth-step-num">3</div>
+                        <span class="auth-step-label">Verify</span>
+                    </div>
+                </div>
+
+                <div class="auth-form-header">
+                    <h3 class="auth-form-title">Verify Your Email</h3>
+                    <p class="auth-form-subtitle">Enter the 4-digit PIN sent to your email</p>
+                </div>
+
+                <div class="auth-info-box">
+                    <p><i class="fas fa-envelope" style="color:var(--brand-green); margin-right:8px;"></i>
+                        A verification PIN has been sent to <span class="auth-info-email">{{ Auth::user()->email }}</span>.
+                        If you haven't received it in a minute or two, click
+                        <a href="{{ route('resendCode', Auth::user()->id) }}">Resend PIN</a>.
+                    </p>
+                </div>
+
+                <form class="auth-form" action="{{ route('code') }}" method="POST">
+                    @csrf
+
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-key"></i> Verification PIN</label>
+                        <input type="number" name="digit" class="auth-input auth-pin-input" placeholder="0000" required maxlength="4">
                     </div>
 
+                    <button type="submit" class="auth-submit-btn">
+                        <i class="fas fa-check-circle me-2"></i> Verify & Continue
+                    </button>
+
+                    <p class="response"></p>
+                </form>
+
+                <form method="POST" action="{{ route('logout') }}" style="margin-top: 15px;">
+                    @csrf
+                    <button type="submit" class="auth-btn-secondary" style="width:100%;">
+                        <i class="fas fa-sign-out-alt me-2"></i> Logout
+                    </button>
+                </form>
+
+                <div class="auth-footer">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> Affordableinvprogram. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- end account-pages -->
 
-    <!-- JAVASCRIPT -->
-    <script src="assets/libs/jquery/jquery.min.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/libs/node-waves/waves.min.js"></script>
-
-    <!-- validation init -->
-    <script src="assets/js/pages/validation.init.js"></script>
-
-    <!-- App js -->
-    <script src="assets/js/app.js"></script>
-    <!-- Bootstrap Toasts Js -->
-    <script src="assets/js/pages/bootstrap-toastr.init.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
-
 </html>
-<div class="position-fixed top-0 end-0 p-2" style="z-index: 1005">
-    <div id="ErrorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <img src="https://globaltb.online/user/logo.png" alt="" class="me-2" height="18">
-            <strong class="me-auto">Error</strong>
-            <small>Now..</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body" style="background-color:red;">
-            Hello, world! This is a toast message.
-        </div>
-    </div>
-</div>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
-    $(document).ready(function() {
-        $('#login_form').on('submit', function(e) {
-            e.preventDefault();
-            $(".response").html("Loading...<div class='spinner-border spinner-border-sm' role='status'><span class='sr-only'>Loading...</span></div>")
-            var email = $('#email').val();
-            var password = $('#password').val();
-
-            if (email == '' || password == '') {
-                $(".toast-body").html('Enter all field');
-                $("#ErrorToast").toast("show");
-                $(".response").html("")
-                return false;
-            }
-            $.ajax({
-                type: "POST",
-                url: 'https://Affordableinvprogram.net/custom-login',
-                data: $(this).serialize(),
-                dataType: "json",
-                success: function(data) {
-                    //alert('error');
-                    $(".response").html(data.content);
-                    if (data.content == 'Successful') {
-                        $(".response").html(data.message);
-                        window.location = data.redirect;
-
-                    } else
-                    if (data.content == 'Error') {
-                        $(".response").html(data.message);
-                        window.location = data.redirect;
-                    }
-                },
-                error: function(data, errorThrown) {
-                    Swal.fire('The Internet?', 'Check network connection!', 'question');
-                }
-            });
-        });
-    });
-</script>
-
-<script>
-    function login(id) {
-        id.innerHTML = "Verifying account..";
-        setTimeout(function() {
-            id.innerHTML = "Log in";
-        }, 3000);
-    }
-</script>
