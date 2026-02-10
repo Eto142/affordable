@@ -735,12 +735,18 @@ footer .d-flex a:hover {
         display: none !important;
     }
     .inv-box-a, .inv-box-b {
-        min-width: 260px;
-        max-width: 300px;
-        font-size: 12px;
+        min-width: auto;
+        max-width: 240px;
+        font-size: 11px;
+        padding: 10px 14px;
+    }
+    .inv-box-a .inv-block,
+    .inv-box-b .inv-block {
+        gap: 8px;
     }
     .inv-box-b {
         bottom: 100px;
+        max-width: 210px;
     }
 }
 
@@ -766,36 +772,50 @@ footer .d-flex a:hover {
     }
     .inv-box-a {
         left: 10px;
-        right: 10px;
+        right: auto;
         min-width: auto;
-        max-width: none;
+        max-width: 220px;
+        padding: 10px 14px;
     }
     .inv-box-a .inv-block {
         width: auto;
+        max-width: 200px;
+        padding: 10px 12px;
+        gap: 8px;
+    }
+    .inv-box-a .inv-block i {
+        font-size: 18px !important;
+    }
+    .inv-box-a .inv-title {
+        font-size: 11px;
+    }
+    .inv-box-a .inv-text {
+        font-size: 10px;
+        line-height: 1.3;
     }
     .inv-box-b {
         left: auto;
         right: 10px;
         min-width: auto;
-        max-width: 200px;
+        max-width: 180px;
         bottom: auto;
         top: 75px;
     }
     .inv-box-b .inv-block {
-        width: 190px;
-        max-width: 190px;
+        width: 170px;
+        max-width: 170px;
         padding: 8px 10px;
         gap: 6px;
         border-radius: 8px;
     }
     .inv-box-b .inv-block i {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .inv-box-b .inv-title {
-        font-size: 11px;
+        font-size: 10px;
     }
     .inv-box-b .inv-text {
-        font-size: 10px;
+        font-size: 9px;
         line-height: 1.3;
     }
 }
