@@ -1,4 +1,4 @@
-<!-- ========================= -->
+{{-- <!-- ========================= -->
 <!--  DEPOSIT NOTIFICATION (Bottom Left - Green) -->
 <!-- ========================= -->
 
@@ -68,4 +68,4 @@ setInterval(showProfit, 9500);
 // Show first ones after a brief delay
 setTimeout(showDeposit, 2000);
 setTimeout(showProfit, 5000);
-</script>
+</script> --}}
