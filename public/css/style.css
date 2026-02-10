@@ -770,12 +770,33 @@ footer .d-flex a:hover {
         min-width: auto;
         max-width: none;
     }
+    .inv-box-a .inv-block {
+        width: auto;
+    }
     .inv-box-b {
-        left: 10px;
+        left: auto;
         right: 10px;
         min-width: auto;
-        max-width: none;
-        bottom: 90px;
+        max-width: 200px;
+        bottom: auto;
+        top: 75px;
+    }
+    .inv-box-b .inv-block {
+        width: 190px;
+        max-width: 190px;
+        padding: 8px 10px;
+        gap: 6px;
+        border-radius: 8px;
+    }
+    .inv-box-b .inv-block i {
+        font-size: 16px !important;
+    }
+    .inv-box-b .inv-title {
+        font-size: 11px;
+    }
+    .inv-box-b .inv-text {
+        font-size: 10px;
+        line-height: 1.3;
     }
 }
 
