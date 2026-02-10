@@ -1105,68 +1105,7 @@ textarea.form-control {
     .contact-info-card { padding: 20px; }
 }
 
-/* ============================================
-   NOTIFICATION POPUPS
-   ============================================ */
-.inv-box-a {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    z-index: 9999999;
-    display: none;
-    font-family: "Poppins", sans-serif;
-}
-.inv-box-a .inv-block {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 15px 20px;
-    background: #0d0d0d;
-    border: 1px solid #04d189;
-    border-radius: 12px;
-    width: 290px;
-    color: white;
-    box-shadow: 0 0 12px rgba(4, 209, 137, 0.35);
-}
-.inv-box-a .inv-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: #04d189;
-}
-.inv-box-a .inv-text {
-    font-size: 13px;
-    margin-top: 3px;
-}
-.inv-box-b {
-    position: fixed;
-    top: 90px;
-    right: 30px;
-    z-index: 9999999;
-    display: none;
-    font-family: "Poppins", sans-serif;
-}
-.inv-box-b .inv-block {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 12px;
-    background: #0a1f14;
-    border: none;
-    border-radius: 10px;
-    width: 240px;
-    max-width: 240px;
-    color: white;
-    box-shadow: none;
-}
-.inv-box-b .inv-title {
-    font-size: 13px;
-    font-weight: 700;
-    color: #04d189;
-}
-.inv-box-b .inv-text {
-    font-size: 12px;
-    margin-top: 2px;
-}
+/* Duplicate notification popups removed — styles defined earlier in file */
 
 /* ============================================
    TRADING INSTRUMENTS SECTION
