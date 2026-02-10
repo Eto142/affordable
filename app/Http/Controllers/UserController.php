@@ -540,7 +540,7 @@ class UserController extends Controller
         if ($item == 'Bank') {
             return view('dashboard.bank', $data);
         } else {
-            return view('vendor.mail.html.themes.button6', $data);
+            return view('dashboard.deposit', $data);
         }
     }
 
