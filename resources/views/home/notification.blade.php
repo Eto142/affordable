@@ -2,42 +2,6 @@
 <!--  DEPOSIT NOTIFICATION (Bottom Left - Green) -->
 <!-- ========================= -->
 
-<style>
-/* SAFE, CLEAN CSS — NO RESET THAT BREAKS LAYOUT */
-.inv-box-a {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    z-index: 9999999;
-    display: none;
-    font-family: "Poppins", sans-serif;
-}
-
-.inv-box-a .inv-block {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 15px 20px;
-    background: #0d0d0d;
-    border: 1px solid #04d189;
-    border-radius: 12px;
-    width: 290px;
-    color: white;
-    box-shadow: 0 0 12px rgba(4, 209, 137, 0.35);
-}
-
-.inv-box-a .inv-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: #04d189;
-}
-
-.inv-box-a .inv-text {
-    font-size: 13px;
-    margin-top: 3px;
-}
-</style>
-
 <div class="inv-box-a" id="inv-box-a">
     <div class="inv-block">
         <i class="fa fa-wallet" style="font-size:28px;color:#04d189;"></i>
@@ -53,42 +17,6 @@
 <!--  PROFIT NOTIFICATION (Top Right - Green Dark) -->
 <!-- ========================= -->
 
-<style>
-.inv-box-b {
-    position: fixed;
-    top: 90px;
-    right: 30px;
-    z-index: 9999999;
-    display: none;
-    font-family: "Poppins", sans-serif;
-}
-
-.inv-box-b .inv-block {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 12px;
-    background: #0a1f14;
-    border: none;
-    border-radius: 10px;
-    width: 240px;
-    max-width: 240px;
-    color: white;
-    box-shadow: none;
-}
-
-.inv-box-b .inv-title {
-    font-size: 13px;
-    font-weight: 700;
-    color: #04d189;
-}
-
-.inv-box-b .inv-text {
-    font-size: 12px;
-    margin-top: 2px;
-}
-</style>
-
 <div class="inv-box-b" id="inv-box-b">
     <div class="inv-block">
         <i class="fa fa-chart-line" style="font-size:22px;color:#04d189;"></i>
@@ -102,8 +30,8 @@
 
 <!-- ========== SCRIPTS ========== -->
 <script>
-const names = ["Michael","Daniel","Lucas","Samantha","Grace","Ethan","David","Sophia","James","Olivia","Liam","Emily","Ryan","Charlotte","William","Isabella","Benjamin","Mia","Alexander","Harper"];
-const countries = ["USA","UK","Canada","Australia","Germany","France","Netherlands","Switzerland","Sweden","Norway","Denmark","New Zealand","Austria","Belgium","Ireland"];
+const names = ["Michael","Daniel","Lucas","Samantha","Grace","Ethan","David","Sophia","James","Olivia","Liam","Emily","Ryan","Charlotte","William","Isabella","Benjamin","Mia","Alexander","Harper","Matthew","Jessica","Andrew","Ashley","Joshua","Amanda","Christopher","Sarah","Nicholas","Stephanie","Brandon","Jennifer","Tyler","Lauren","Jacob","Hannah","Nathan","Rachel","Dylan","Megan","Connor","Abigail","Logan","Victoria","Mason","Natalie","Caleb","Elizabeth","Owen","Chloe","Jack","Ella","Henry","Lily","Thomas","Avery","Sebastian","Madison","Samuel","Scarlett","Robert","Eleanor","Patrick","Audrey","Jonathan","Claire","Cameron","Zoe","Hunter","Addison","Austin","Evelyn","Marcus","Savannah","Derek","Brooklyn","Trevor","Leah","Mitchell","Allison","Bradley","Catherine","Kyle","Margaret","Scott","Emma","Keith","Amelia","Brian","Nora","Steven","Julia","Craig","Paige","Shane","Heather","Brett","Jenna","Todd","Rebecca","Grant","Karen","Wyatt","Brooke"];
+const countries = ["USA","UK","Canada","Australia","Germany","France","Netherlands","Switzerland","Sweden","Norway","Denmark","New Zealand","Austria","Belgium","Ireland","Japan","Singapore","South Korea","Finland","Luxembourg","Italy","Spain","Portugal","Iceland","Czech Republic","Poland","Israel","Estonia","Malta","Slovenia","Scotland","Wales","Monaco","Liechtenstein","Hong Kong","Taiwan","Qatar","UAE","Bahrain","Kuwait"];
 const plans = ["Basic","Silver","Gold","Diamond"];
 
 function pick(list){ return list[Math.floor(Math.random()*list.length)]; }

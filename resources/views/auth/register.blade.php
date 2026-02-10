@@ -1,253 +1,153 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>Affordableinvprogram | Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesbrand" name="author" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-    <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-    <!-- Icons Css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <!-- App Css-->
-    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-
+    <meta content="Create your free Affordableinvprogram copy trading account" name="description" />
+    <link rel="icon" type="image/png" href="{{ asset('logo1.png') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
+<!-- LiveChat -->
+<script> window.__lc = window.__lc || {}; window.__lc.license = 18305550; window.__lc.integration_name = "manual_channels"; window.__lc.product_name = "livechat"; ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice)) </script>
+<body class="auth-page">
 
-<!-- Start of LiveChat (www.livechat.com) code --> <script> window.__lc = window.__lc || {}; window.__lc.license = 18305550; window.__lc.integration_name = "manual_channels"; window.__lc.product_name = "livechat"; ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice)) </script> <noscript><a href="https://www.livechat.com/chat-with/18305550/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript> <!-- End of LiveChat code -->
-<!--<script src="//code.tidio.co/iilowasz0aomejtmdsoxz1sombiymygb.js" async></script>-->
-
-<body style="background-color: rgb(5, 5, 66)">
-<div class="account-pages my-5 pt-sm-5" >
-    <div class="container" >
-        <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6 col-xl-6">
-                <div class="card overflow-hidden">
-                    <div class="" style="background-color: rgb(123, 194, 123)" >
-                        <div class="row">
-                            <div class="col-7">
-                                <div class="text-primary p-4">
-                                    <h5 class="" style="color: white">Free Register</h5>
-                                    <p style="color: white">Get your free Affordableinvprogram account now.</p>
-                                </div>
-                            </div>
-                            <div class="col-5 align-self-end">
-                                <img src="assets/images/profile-img.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body pt-0">
-                        <div>
-                            <a href="/">
-                                <div class="avatar-md profile-user-wid mb-4">
-                                    <span class="avatar-title rounded-circle bg-light">
-                                                <img src="logo1.png" alt="" class="rounded-circle" height="34">
-                                            </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="p-2">
-                          <form method="POST" action="{{ route('register') }}" id="regester" class="needs-validation" novalidate>
-                            @csrf
-                                <div class="mb-3">
-                                    <label for="username" class="form-label">Full Name</label>
-                                    <input type="text" class="form-control @error('name') is-invalid @enderror" id="fullname" name="name" placeholder="Enter Full Name">
-                                    @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror                                
-                                
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="username" class="form-label">Email</label>
-                                    <input type="text" class="form-control  @error('email') is-invalid @enderror" id="email" name="email"   value="{{ old('email') }}"placeholder="Enter email">
-                                    @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror                               
-                                </div>
-                                
-
-                               
-
-
-                                <div class="md-3">
-                                    <div class="form-floating mb-2">
-                                        <select class="form-select" id="country" name="currency" aria-label="Floating label select example" required>
-                                            <option value="$">USD</option>
-                                            <option value='£'>GBP</option>
-                                            <option value='€'>EUR</option>
-                                            <option value='$'>AUD</option>
-                                        </select>
-                                        <label for="floatingSelectGrid">Currency</label>
-                                    </div>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Password</label>
-                                    <div class="input-group auth-pass-inputgroup">
-                                        <input type="password" class="form-control @error('password') is-invalid @enderror" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon" id="password" name="password">
-                                                                                <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
-                                    
-                                @error('password')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                                                                            </div>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label">Confirm Password</label>
-                                    <div class="input-group auth-pass-inputgroup">
-                                        <input type="password" class="form-control" placeholder="Enter password" name="password_confirmation" aria-label="Password" aria-describedby="password-addon1" id="password2" name="password_confirmation">
-                                        <button class="btn btn-light " type="button" id="password-addon1"><i class="mdi mdi-eye-outline"></i></button>
-                                    </div>
-                                </div>
-
-
-            
-
-                                <div class="mt-4 d-grid">
-                                    <button class="btn btn-success waves-effect waves-light" {{ __('Register') }}  onclick='create(this)' type="submit" id="div" style="background-color: rgb(123, 194, 123)">Register</button>
-                                </div><br>
-                                <p class="response"></p>
-
-                                <div class="mt-4 text-center">
-                                    <p class="mb-0">By registering you agree to the Affordableinvprogram.net <a href="#" class="text-primary">Terms of Use</a></p>
-                                <br>
-                                <p>Already have an account ? <a href="{{route('login')}}" class="fw-medium text-primary"> Login</a> </p>
-                                <p>
-                                </div>
-                      
-                            </form>
-                        </div>
-
-                    </div>
+    <div class="auth-wrapper">
+        <!-- Left Branding Panel -->
+        <div class="auth-brand-panel">
+            <div class="auth-brand-content">
+                <a href="/"><img src="{{ asset('logo1.png') }}" alt="Affordableinvprogram" class="auth-logo-img"></a>
+                <h2 class="auth-brand-title">Start Your Copy Trading Journey</h2>
+                <p class="auth-brand-subtitle">Join 150,000+ traders worldwide. Copy top-performing experts and grow your wealth on autopilot.</p>
+                <div class="auth-brand-features">
+                    <div class="auth-brand-feature"><i class="fas fa-check-circle"></i> Free to register</div>
+                    <div class="auth-brand-feature"><i class="fas fa-check-circle"></i> Copy expert traders instantly</div>
+                    <div class="auth-brand-feature"><i class="fas fa-check-circle"></i> Fast & secure withdrawals</div>
+                    <div class="auth-brand-feature"><i class="fas fa-check-circle"></i> 24/7 live support</div>
                 </div>
-                <div class="mt-5 text-center">
-                   
-                    <div>
-                        ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script> Copyright
-                            <i class="bx bx-check-shield text-success"></i>Affordableinvprogram</p>
-                    </div>
+                <div class="auth-brand-stats">
+                    <div class="auth-brand-stat"><span>150K+</span>Traders</div>
+                    <div class="auth-brand-stat"><span>120+</span>Countries</div>
+                    <div class="auth-brand-stat"><span>$2.8B+</span>Volume</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Form Panel -->
+        <div class="auth-form-panel">
+            <div class="auth-form-container">
+                <div class="auth-form-header">
+                    <a href="/" class="auth-mobile-logo"><img src="{{ asset('logo1.png') }}" alt="Logo" height="40"></a>
+                    <h3 class="auth-form-title">Create Your Account</h3>
+                    <p class="auth-form-subtitle">Get started in under 2 minutes — completely free</p>
                 </div>
 
+                <form method="POST" action="{{ route('register') }}" id="regester" class="auth-form" novalidate>
+                    @csrf
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-user"></i> Full Name</label>
+                        <input type="text" class="auth-input @error('name') is-invalid @enderror" id="fullname" name="name" placeholder="Enter your full name" value="{{ old('name') }}">
+                        @error('name')
+                        <span class="auth-error"><strong>{{ $message }}</strong></span>
+                        @enderror
+                    </div>
+
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-envelope"></i> Email Address</label>
+                        <input type="email" class="auth-input @error('email') is-invalid @enderror" id="email" name="email" placeholder="Enter your email" value="{{ old('email') }}">
+                        @error('email')
+                        <span class="auth-error"><strong>{{ $message }}</strong></span>
+                        @enderror
+                    </div>
+
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-coins"></i> Currency</label>
+                        <select class="auth-input auth-select" id="country" name="currency" required>
+                            <option value="$">USD — US Dollar</option>
+                            <option value="£">GBP — British Pound</option>
+                            <option value="€">EUR — Euro</option>
+                            <option value="$">AUD — Australian Dollar</option>
+                        </select>
+                    </div>
+
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-lock"></i> Password</label>
+                        <div class="auth-password-wrap">
+                            <input type="password" class="auth-input @error('password') is-invalid @enderror" id="password" name="password" placeholder="Create a strong password">
+                            <button type="button" class="auth-pass-toggle" onclick="togglePass('password', this)"><i class="fas fa-eye"></i></button>
+                        </div>
+                        @error('password')
+                        <span class="auth-error"><strong>{{ $message }}</strong></span>
+                        @enderror
+                    </div>
+
+                    <div class="auth-field">
+                        <label class="auth-label"><i class="fas fa-shield-alt"></i> Confirm Password</label>
+                        <div class="auth-password-wrap">
+                            <input type="password" class="auth-input" id="password2" name="password_confirmation" placeholder="Re-enter your password">
+                            <button type="button" class="auth-pass-toggle" onclick="togglePass('password2', this)"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="auth-field">
+                        <label class="auth-checkbox-wrap">
+                            <input type="checkbox" class="auth-checkbox" required>
+                            <span>I agree to the <a href="#" class="auth-link">Terms of Use</a> and <a href="#" class="auth-link">Privacy Policy</a></span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="auth-submit-btn" id="div" onclick="create(this)">
+                        <i class="fas fa-user-plus me-2"></i> Create Account
+                    </button>
+
+                    <p class="response"></p>
+
+                    <div class="auth-separator">
+                        <span>or</span>
+                    </div>
+
+                    <p class="auth-switch-text">Already have an account? <a href="{{ route('login') }}" class="auth-link">Sign In</a></p>
+                </form>
+
+                <div class="auth-footer">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> Affordableinvprogram. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-
-<script src="assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
-<div class="position-fixed top-0 end-0 p-2" style="z-index: 1005">
-    <div id="ErrorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <a href="/"><img src="logo1.png" alt="" class="me-2" height="18"></a>
-            <strong class="me-auto">Error</strong>
-            <small>Now..</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body" style="background-color:red;">
-
+    <!-- Error Toast -->
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 1005">
+        <div id="ErrorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header" style="background:#162029; color:#fff; border-bottom:1px solid #1e2d3a;">
+                <img src="{{ asset('logo1.png') }}" alt="" class="me-2" height="18">
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" style="background:#2d1215; color:#f85149;"></div>
         </div>
     </div>
-</div>
-<!-- JAVASCRIPT -->
-<script src="assets/libs/jquery/jquery.min.js"></script>
-<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/libs/metismenu/metisMenu.min.js"></script>
-<script src="assets/libs/simplebar/simplebar.min.js"></script>
-<script src="assets/libs/node-waves/waves.min.js"></script>
 
-<!-- validation init -->
-<script src="assets/js/pages/validation.init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<!-- App js -->
-<script src="assets/js/app.js"></script>
-<!-- Bootstrap Toasts Js -->
-<script src="assets/js/pages/bootstrap-toastr.init.js"></script>
+    <script>
+    function togglePass(id, btn) {
+        const input = document.getElementById(id);
+        const icon = btn.querySelector('i');
+        if (input.type === 'password') { input.type = 'text'; icon.classList.replace('fa-eye','fa-eye-slash'); }
+        else { input.type = 'password'; icon.classList.replace('fa-eye-slash','fa-eye'); }
+    }
+    function create(id) {
+        id.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Creating account...';
+        setTimeout(function() { id.innerHTML = '<i class="fas fa-user-plus me-2"></i> Create Account'; }, 3000);
+    }
+    </script>
+
 
 </body>
-
 </html>
-
-<script>
-    function create(id) {
-        id.innerHTML = "submitting request...";
-        $("#div").fadeOut(1000);
-        setTimeout(function() {
-            $('#div').show();
-            id.innerHTML = "Register";
-        }, 2000);
-    }
-</script>
-
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
-    $(document).ready(function() {
-        $('#regester').on('submit', function(e) {
-            e.preventDefault();
-
-            var fullname = $('#fullname').val();
-            var email = $('#email').val();
-
-            var password = $('#password').val();
-    
-
-
-            if (fullname == "" || email == "" password == "") {
-                $(".toast-body").html('Enter all field');
-                $("#ErrorToast").toast("show");
-                return false;
-            }
-
-            if (password.length < 5 || password2.length < 5) {
-                $(".toast-body").html('Enter A Stronger Password !');
-                $("#ErrorToast").toast("show");
-                $("#password, $password2").val('');
-                return false;
-            }
-
-
-            if (password != password2) {
-                $(".toast-body").html('Password mismatched Check And Try Again!');
-                $("#ErrorToast").toast("show");
-                $("#pin_two").val('');
-                return false;
-            }
-
-            $.ajax({
-                type: "POST",
-                url: "https://Affordableinvprogram.net/custom-registration",
-                data: $(this).serialize(),
-                dataType: "json",
-                success: function(data) {
-                    $(".response").html(data.content);
-                    if (data.content == 'successful') {
-                        $(".response").html(data.content);
-                        window.location = data.redirect;
-                    } else
-                    if (data.content == 'Error') {
-                        $(".response").html(data.content);
-                    }
-                },
-                error: function(data, errorThrown) {
-                    Swal.fire('The Internet?', 'Check network connection!', 'question');
-                }
-            });
-
-        });
-    });
-</script>

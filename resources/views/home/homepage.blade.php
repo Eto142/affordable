@@ -75,8 +75,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
     <script>
     // Affordableinvprogram copy trading notifications
-    const invNames = ["Chidi","Amina","Emeka","Ngozi","Tunde","Fatima","Bola","Ada","Kelechi","Seyi"];
-    const invCountries = ["Nigeria","Ghana","Kenya","South Africa","UK","Canada","UAE","USA"];
+    const invNames = ["Michael","Jessica","Daniel","Samantha","Ethan","Sophia","James","Olivia","Liam","Emily","Ryan","Charlotte","William","Isabella","Benjamin","Mia","Alexander","Harper","Lucas","Grace","Nathan","Abigail","Connor","Victoria","Logan","Madison","Owen","Scarlett","Henry","Eleanor","Patrick","Claire","Sebastian","Zoe","Thomas","Avery","Jack","Ella","Matthew","Lauren","Andrew","Hannah","Brandon","Rachel","Tyler","Megan","Cameron","Natalie","Hunter","Addison"];
+    const invCountries = ["USA","UK","Canada","Australia","Germany","France","Netherlands","Switzerland","Sweden","Norway","Denmark","New Zealand","Austria","Belgium","Ireland","Japan","Singapore","Finland","Luxembourg","Italy","Spain","Portugal","Iceland","South Korea","Israel","Czech Republic","Poland","Estonia","Scotland","Monaco"];
     function pick(list){ return list[Math.floor(Math.random()*list.length)]; }
     function money(min,max){ return (Math.random()*(max-min)+min).toFixed(2); }
     let toggleA = true;
@@ -107,6 +107,65 @@
     setInterval(showA, 6500);
     setInterval(showB, 9000);
     </script>
+
+    <!-- Live Market Ticker -->
+    <div class="market-ticker">
+        <div class="ticker-track">
+            <div class="ticker-item"><span class="ticker-name">BTC/USD</span> <span class="ticker-up">+2.34%</span></div>
+            <div class="ticker-item"><span class="ticker-name">ETH/USD</span> <span class="ticker-up">+1.87%</span></div>
+            <div class="ticker-item"><span class="ticker-name">EUR/USD</span> <span class="ticker-down">-0.15%</span></div>
+            <div class="ticker-item"><span class="ticker-name">GBP/USD</span> <span class="ticker-up">+0.32%</span></div>
+            <div class="ticker-item"><span class="ticker-name">XAU/USD</span> <span class="ticker-up">+0.78%</span></div>
+            <div class="ticker-item"><span class="ticker-name">AAPL</span> <span class="ticker-up">+1.24%</span></div>
+            <div class="ticker-item"><span class="ticker-name">TSLA</span> <span class="ticker-up">+2.89%</span></div>
+            <div class="ticker-item"><span class="ticker-name">SOL/USD</span> <span class="ticker-up">+5.87%</span></div>
+            <div class="ticker-item"><span class="ticker-name">USD/JPY</span> <span class="ticker-down">-0.18%</span></div>
+            <div class="ticker-item"><span class="ticker-name">MSFT</span> <span class="ticker-down">-0.34%</span></div>
+            <div class="ticker-item"><span class="ticker-name">XRP/USD</span> <span class="ticker-up">+1.93%</span></div>
+            <div class="ticker-item"><span class="ticker-name">CRUDE OIL</span> <span class="ticker-down">-0.45%</span></div>
+            <!-- Duplicate for seamless loop -->
+            <div class="ticker-item"><span class="ticker-name">BTC/USD</span> <span class="ticker-up">+2.34%</span></div>
+            <div class="ticker-item"><span class="ticker-name">ETH/USD</span> <span class="ticker-up">+1.87%</span></div>
+            <div class="ticker-item"><span class="ticker-name">EUR/USD</span> <span class="ticker-down">-0.15%</span></div>
+            <div class="ticker-item"><span class="ticker-name">GBP/USD</span> <span class="ticker-up">+0.32%</span></div>
+            <div class="ticker-item"><span class="ticker-name">XAU/USD</span> <span class="ticker-up">+0.78%</span></div>
+            <div class="ticker-item"><span class="ticker-name">AAPL</span> <span class="ticker-up">+1.24%</span></div>
+            <div class="ticker-item"><span class="ticker-name">TSLA</span> <span class="ticker-up">+2.89%</span></div>
+            <div class="ticker-item"><span class="ticker-name">SOL/USD</span> <span class="ticker-up">+5.87%</span></div>
+            <div class="ticker-item"><span class="ticker-name">USD/JPY</span> <span class="ticker-down">-0.18%</span></div>
+            <div class="ticker-item"><span class="ticker-name">MSFT</span> <span class="ticker-down">-0.34%</span></div>
+            <div class="ticker-item"><span class="ticker-name">XRP/USD</span> <span class="ticker-up">+1.93%</span></div>
+            <div class="ticker-item"><span class="ticker-name">CRUDE OIL</span> <span class="ticker-down">-0.45%</span></div>
+        </div>
+    </div>
+
+    <!-- Trust Stats Bar -->
+    <div class="trust-bar">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-users"></i></div>
+                    <div class="trust-number">150K+</div>
+                    <div class="trust-label">Active Traders</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-globe"></i></div>
+                    <div class="trust-number">120+</div>
+                    <div class="trust-label">Countries Served</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <div class="trust-number">$2.8B+</div>
+                    <div class="trust-label">Total Traded Volume</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon"><i class="fas fa-headset"></i></div>
+                    <div class="trust-number">24/7</div>
+                    <div class="trust-label">Customer Support</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Features Section -->
     <section class="section section-dark">
@@ -159,93 +218,359 @@
         </div>
     </section>
 
-    <!-- Trading Instruments Section -->
-    <section class="section">
+    <!-- How Copy Trading Works -->
+    <section class="section" style="background: var(--darker-bg);">
         <div class="container">
-            <h2 class="section-title">Trade Multiple Instruments</h2>
-            <p class="section-subtitle">Get immediate access to cryptocurrencies, stock indices, commodities and forex with a single platform</p>
-            
-            <div class="market-table">
-                <table class="table table-hover mb-0">
-                    <thead>
-                        <tr>
-                            <th>Instrument</th>
-                            <th>Symbol</th>
-                            <th>Price</th>
-                            <th>Change</th>
-                            <th>Leverage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <i class="fab fa-bitcoin text-warning me-2 fs-5"></i>
-                                    Bitcoin
-                                </div>
-                            </td>
-                            <td>BTC/USD</td>
-                            <td>$45,230.50</td>
-                            <td class="positive">+2.34%</td>
-                            <td>100X</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <i class="fab fa-ethereum text-primary me-2 fs-5"></i>
-                                    Ethereum
-                                </div>
-                            </td>
-                            <td>ETH/USD</td>
-                            <td>$3,210.75</td>
-                            <td class="positive">+1.67%</td>
-                            <td>100X</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-euro-sign text-info me-2 fs-5"></i>
-                                    EUR/USD
-                                </div>
-                            </td>
-                            <td>EUR/USD</td>
-                            <td>1.0854</td>
-                            <td class="negative">-0.23%</td>
-                            <td>1000X</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-chart-line text-success me-2 fs-5"></i>
-                                    S&P 500
-                                </div>
-                            </td>
-                            <td>SPX</td>
-                            <td>4,530.20</td>
-                            <td class="positive">+0.89%</td>
-                            <td>100X</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <i class="fas fa-gem text-warning me-2 fs-5"></i>
-                                    Gold
-                                </div>
-                            </td>
-                            <td>XAU/USD</td>
-                            <td>$1,980.40</td>
-                            <td class="positive">+0.56%</td>
-                            <td>500X</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <div class="text-center mt-4">
-                <a href="#" class="btn btn-outline-light-custom">View All Instruments</a>
+            <h2 class="section-title">How Copy Trading Works</h2>
+            <p class="section-subtitle">Start earning in 4 simple steps  no experience required</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon"><i class="fas fa-user-plus"></i></div>
+                    <h4 class="step-title">Create Your Account</h4>
+                    <p class="step-desc">Sign up for free in under 2 minutes. Verify your identity and secure your account with two-factor authentication.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon"><i class="fas fa-search-dollar"></i></div>
+                    <h4 class="step-title">Choose Expert Traders</h4>
+                    <p class="step-desc">Browse our ranked leaderboard. Review performance stats, risk scores, and trading history before you follow.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon"><i class="fas fa-copy"></i></div>
+                    <h4 class="step-title">Copy Their Trades</h4>
+                    <p class="step-desc">Set your investment amount and let the platform automatically replicate every trade in real time  hands free.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon"><i class="fas fa-wallet"></i></div>
+                    <h4 class="step-title">Withdraw Profits</h4>
+                    <p class="step-desc">Watch your portfolio grow and withdraw earnings anytime to your crypto wallet, bank, or preferred payment method.</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Trading Instruments Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Trading Instruments</h2>
+            <p class="section-subtitle">Access 200+ instruments across multiple asset classes  all from a single powerful platform</p>
+
+            <!-- Category Tabs -->
+            <div class="inst-tabs">
+                <div class="inst-tab active" data-tab="crypto"><i class="fab fa-bitcoin me-2"></i>Crypto</div>
+                <div class="inst-tab" data-tab="forex"><i class="fas fa-exchange-alt me-2"></i>Forex</div>
+                <div class="inst-tab" data-tab="stocks"><i class="fas fa-chart-bar me-2"></i>Stocks</div>
+                <div class="inst-tab" data-tab="commodities"><i class="fas fa-gem me-2"></i>Commodities</div>
+            </div>
+
+            <!-- Crypto Panel -->
+            <div class="inst-panel active" id="tab-crypto">
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fab fa-bitcoin"></i></div>
+                        <div><div class="inst-name">Bitcoin</div><div class="inst-symbol">BTC / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.1%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">100X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span><span class="inst-badge volatile">High Volume</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fab fa-ethereum"></i></div>
+                        <div><div class="inst-name">Ethereum</div><div class="inst-symbol">ETH / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.15%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">100X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fas fa-coins"></i></div>
+                        <div><div class="inst-name">Solana</div><div class="inst-symbol">SOL / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.2%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">50X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">Trending</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fas fa-circle-dot"></i></div>
+                        <div><div class="inst-name">Ripple</div><div class="inst-symbol">XRP / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.25%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">50X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fas fa-link"></i></div>
+                        <div><div class="inst-name">Chainlink</div><div class="inst-symbol">LINK / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.3%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">50X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">DeFi</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon crypto"><i class="fas fa-cubes"></i></div>
+                        <div><div class="inst-name">Cardano</div><div class="inst-symbol">ADA / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.3%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">50X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/7</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">Trending</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+            </div>
+
+            <!-- Forex Panel -->
+            <div class="inst-panel" id="tab-forex">
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-euro-sign"></i></div>
+                        <div><div class="inst-name">EUR / USD</div><div class="inst-symbol">Euro vs US Dollar</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.6 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">1000X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Most Traded</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-pound-sign"></i></div>
+                        <div><div class="inst-name">GBP / USD</div><div class="inst-symbol">British Pound vs US Dollar</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.8 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">1000X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-yen-sign"></i></div>
+                        <div><div class="inst-name">USD / JPY</div><div class="inst-symbol">US Dollar vs Japanese Yen</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.7 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">1000X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Major Pair</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-dollar-sign"></i></div>
+                        <div><div class="inst-name">AUD / USD</div><div class="inst-symbol">Australian Dollar vs US Dollar</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.9 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">500X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Major Pair</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-dollar-sign"></i></div>
+                        <div><div class="inst-name">USD / CAD</div><div class="inst-symbol">US Dollar vs Canadian Dollar</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">1.0 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">500X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Major Pair</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon forex"><i class="fas fa-franc-sign"></i></div>
+                        <div><div class="inst-name">USD / CHF</div><div class="inst-symbol">US Dollar vs Swiss Franc</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.9 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">500X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">Safe Haven</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+            </div>
+
+            <!-- Stocks Panel -->
+            <div class="inst-panel" id="tab-stocks">
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fab fa-apple"></i></div>
+                        <div><div class="inst-name">Apple Inc.</div><div class="inst-symbol">AAPL / NASDAQ</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.05%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">20X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Top Pick</span><span class="inst-badge stable">Blue Chip</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fab fa-google"></i></div>
+                        <div><div class="inst-name">Alphabet Inc.</div><div class="inst-symbol">GOOGL / NASDAQ</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.05%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">20X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Blue Chip</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fab fa-amazon"></i></div>
+                        <div><div class="inst-name">Amazon</div><div class="inst-symbol">AMZN / NASDAQ</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.06%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">20X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fab fa-microsoft"></i></div>
+                        <div><div class="inst-name">Microsoft</div><div class="inst-symbol">MSFT / NASDAQ</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.04%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">20X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Blue Chip</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fas fa-bolt"></i></div>
+                        <div><div class="inst-name">Tesla</div><div class="inst-symbol">TSLA / NASDAQ</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.08%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">20X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">High Volatility</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon stocks"><i class="fas fa-chart-line"></i></div>
+                        <div><div class="inst-name">S&P 500</div><div class="inst-symbol">SPX / INDEX</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.03%</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">100X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">Mon–Fri</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Top Index</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+            </div>
+
+            <!-- Commodities Panel -->
+            <div class="inst-panel" id="tab-commodities">
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-gem"></i></div>
+                        <div><div class="inst-name">Gold</div><div class="inst-symbol">XAU / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.3 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">500X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Most Traded</span><span class="inst-badge volatile">Safe Haven</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-ring"></i></div>
+                        <div><div class="inst-name">Silver</div><div class="inst-symbol">XAG / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.5 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">500X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge popular">Popular</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-oil-can"></i></div>
+                        <div><div class="inst-name">Crude Oil</div><div class="inst-symbol">WTI / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.03</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">200X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">High Volatility</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-fire"></i></div>
+                        <div><div class="inst-name">Natural Gas</div><div class="inst-symbol">NATGAS / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.03</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">200X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge volatile">Volatile</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-seedling"></i></div>
+                        <div><div class="inst-name">Copper</div><div class="inst-symbol">HG / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.04</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">200X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Industrial</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+                <div class="inst-card">
+                    <div class="inst-card-head">
+                        <div class="inst-icon commodities"><i class="fas fa-crown"></i></div>
+                        <div><div class="inst-name">Platinum</div><div class="inst-symbol">XPT / USD</div></div>
+                    </div>
+                    <div class="inst-row"><span class="inst-label">Spread From</span><span class="inst-value inst-spread">0.8 pips</span></div>
+                    <div class="inst-row"><span class="inst-label">Leverage</span><span class="inst-leverage">200X</span></div>
+                    <div class="inst-row"><span class="inst-label">Trading Hours</span><span class="inst-value">24/5</span></div>
+                    <div class="inst-tags"><span class="inst-badge stable">Precious Metal</span></div>
+                    <a href="{{ route('register') }}" class="inst-trade-btn">Trade Now</a>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="inst-stats">
+                <div class="inst-stat"><div class="inst-stat-num">200+</div><div class="inst-stat-label">Trading Instruments</div></div>
+                <div class="inst-stat"><div class="inst-stat-num">0.0</div><div class="inst-stat-label">Spread From (pips)</div></div>
+                <div class="inst-stat"><div class="inst-stat-num">1000X</div><div class="inst-stat-label">Max Leverage</div></div>
+                <div class="inst-stat"><div class="inst-stat-num">24/7</div><div class="inst-stat-label">Market Access</div></div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="{{ route('register') }}" class="btn btn-primary-custom">Start Trading Now</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    // Instrument tabs
+    document.querySelectorAll('.inst-tab').forEach(tab => {
+        tab.addEventListener('click', function(){
+            document.querySelectorAll('.inst-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.inst-panel').forEach(p => p.classList.remove('active'));
+            this.classList.add('active');
+            document.getElementById('tab-' + this.dataset.tab).classList.add('active');
+        });
+    });
+    </script>
 
     <!-- Account Plans Section -->
     <section class="section section-dark">
@@ -310,6 +635,46 @@
         </div>
     </section>
 
+    <!-- Why Choose Us -->
+    <section class="section" style="background: var(--darker-bg);">
+        <div class="container">
+            <h2 class="section-title">Why Choose Affordableinvprogram</h2>
+            <p class="section-subtitle">The platform trusted by over 150,000 traders worldwide for copy trading excellence</p>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-bolt"></i></div>
+                    <h4 class="why-title">Ultra-Fast Execution</h4>
+                    <p class="why-desc">Orders executed in under 30ms. No requotes, no delays  even during high volatility market events.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4 class="why-title">Fully Regulated</h4>
+                    <p class="why-desc">Licensed and regulated by top-tier financial authorities. Your funds are held in segregated accounts.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-chart-line"></i></div>
+                    <h4 class="why-title">Advanced Analytics</h4>
+                    <p class="why-desc">Real-time market data, professional charting tools, and AI-powered trade signals at your fingertips.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h4 class="why-title">Zero Hidden Fees</h4>
+                    <p class="why-desc">Transparent pricing with tight spreads from 0.0 pips. No commissions on standard accounts.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4 class="why-title">Smart Copy Trading</h4>
+                    <p class="why-desc">Automatically replicate trades from top performers. Set risk limits and let the algorithm do the work.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-headset"></i></div>
+                    <h4 class="why-title">24/7 Expert Support</h4>
+                    <p class="why-desc">Multilingual support team available around the clock via live chat, email, and phone  whenever you need us.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Testimonials Section -->
     <section class="section">
         <div class="container">
@@ -342,6 +707,36 @@
                             Veronica Keith
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Regulation Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Security & Regulation</h2>
+            <p class="section-subtitle">Your funds and data are protected by enterprise-grade security infrastructure</p>
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon"><i class="fas fa-lock"></i></div>
+                    <h4>256-Bit SSL Encryption</h4>
+                    <p>All data transmitted is protected with bank-level SSL encryption, ensuring your personal and financial information is always secure.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon"><i class="fas fa-university"></i></div>
+                    <h4>Segregated Accounts</h4>
+                    <p>Client funds are held in segregated bank accounts, completely separate from company operating funds for maximum protection.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon"><i class="fas fa-user-shield"></i></div>
+                    <h4>Two-Factor Authentication</h4>
+                    <p>Secure your account with 2FA. Every login and withdrawal requires secondary verification for an extra layer of protection.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h4>Regulatory Compliance</h4>
+                    <p>We operate in full compliance with international financial regulations, adhering to strict KYC and AML policies.</p>
                 </div>
             </div>
         </div>
@@ -410,6 +805,73 @@
                 </script>
             </div>
             <!-- TradingView Widget END -->
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--darker-bg);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Everything you need to know to get started</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        What is copy trading and how does it work?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">Copy trading allows you to automatically replicate the trades of experienced, top-performing traders in real time. Simply choose a trader from our leaderboard, allocate your capital, and every trade they make is mirrored in your account proportionally.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        What is the minimum amount to start trading?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">You can start copy trading with as little as $500 on our Basic Plan. We offer multiple account tiers to match your investment goals and risk appetite.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        How do I withdraw my profits?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">Withdrawals can be made anytime through your dashboard. We support Bitcoin, USDT, Ethereum, bank transfer, and other methods. Most withdrawals are processed within 24 hours.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        Is my money safe with Affordableinvprogram?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">Absolutely. We use 256-bit SSL encryption, two-factor authentication, and hold all client funds in segregated bank accounts. We are fully compliant with international financial regulations.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        Can I stop copying a trader at any time?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">Yes. You have complete control over your copy trading. You can pause, stop, or switch traders at any time directly from your dashboard  no lock-in periods or penalties.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q" onclick="this.parentElement.classList.toggle('active')">
+                        What trading instruments are available?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-a">We offer 200+ instruments across Cryptocurrencies, Forex pairs, Stocks, Commodities, and Indices  all accessible from one powerful trading platform with competitive spreads.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container" style="position:relative; z-index:1;">
+            <h2 class="cta-title">Ready to Start Earning?</h2>
+            <p class="cta-subtitle">Join 150,000+ traders worldwide. Open your free account today and start copying top traders in minutes.</p>
+            <div class="cta-features">
+                <span class="cta-feature"><i class="fas fa-check-circle"></i> Free Account</span>
+                <span class="cta-feature"><i class="fas fa-check-circle"></i> No Hidden Fees</span>
+                <span class="cta-feature"><i class="fas fa-check-circle"></i> Instant Withdrawals</span>
+                <span class="cta-feature"><i class="fas fa-check-circle"></i> 24/7 Support</span>
+            </div>
+            <a href="{{ route('register') }}" class="cta-btn">Create Free Account <i class="fas fa-arrow-right"></i></a>
         </div>
     </section>
 
